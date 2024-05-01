@@ -19,7 +19,7 @@ function findNestedObject(obj: Record<string, unknown>, key: string): Array<unkn
 	return items;
 }
 
-const qualityNames: Record<number, string> = {
+export const qualityNames: Record<number, string> = {
 	0: 'Normal',
 	1: 'Silver',
 	2: 'Gold',

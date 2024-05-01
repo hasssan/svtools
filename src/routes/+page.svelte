@@ -1,11 +1,15 @@
 <script lang="ts">
 	import { parseSaveGame, type Player, type Item } from '../lib/saveGame.js';
+	import { qualityNames } from '../lib/items.js';
 
 	let items: Item[] = [];
 	let filterByName = '';
+	let filterByQuality = '';
 	let player: Player;
 
 	let files: FileList;
+
+	const qualityFilter = Object.values(qualityNames);
 
 	function handleSaveUpload() {
 		const file = files[0];
@@ -23,9 +27,13 @@
 		reader.readAsText(file);
 	}
 
-	$: filteredItems = items.filter((item) =>
-		item.name.toLowerCase().includes(filterByName.toLowerCase())
-	);
+	$: filteredItems = items
+		.filter((item) => item.name.toLowerCase().includes(filterByName.toLowerCase()))
+		.filter(
+			(item) =>
+				(filterByQuality && item.qualityName?.toLowerCase() === filterByQuality.toLowerCase()) ||
+				!filterByQuality
+		);
 </script>
 
 <div class="flex flex-col items-center justify-center bg-gray-100 dark:bg-gray-900 my-2">
@@ -77,8 +85,8 @@
 				<h1 class="text-2xl font-bold text-gray-900 dark:text-gray-100">Items Analysis</h1>
 			</div>
 			<div class="flex flex-col md:flex-row items-center justify-between mb-6">
-				<label for="table-search" class="sr-only">Search</label>
 				<div class="relative mt-1">
+					<label for="table-search" class="sr-only">Search</label>
 					<div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
 						<svg
 							class="w-5 h-5 text-gray-500 dark:text-gray-400"
@@ -100,6 +108,15 @@
 						placeholder="Filter by Name"
 						bind:value={filterByName}
 					/>
+				</div>
+				<div class="text-gray-700">
+					<label for="filter-quality">Filter by Quality:</label>
+					<select class="p-2 rounded border-0 bg-gray-50" bind:value={filterByQuality}>
+						<option value="">All</option>
+						{#each qualityFilter as quality}
+							<option value={quality}>{quality}</option>
+						{/each}
+					</select>
 				</div>
 			</div>
 			<div class="overflow-x-auto py-4">
