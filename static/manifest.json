@@ -1,20 +1,20 @@
 {
-  "name": "Tulkit",
-  "short_name": "Tulkit",
-  "icons": [
-    {
-      "src": "/android-chrome-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "/android-chrome-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ],
-  "theme_color": "#0A1922",
-  "background_color": "#FFF",
-  "start_url": "/",
-  "display": "standalone"
+	"name": "Tulkit",
+	"short_name": "Tulkit",
+	"icons": [
+		{
+			"src": "/svtools/android-chrome-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "/svtools/android-chrome-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"theme_color": "#0A1922",
+	"background_color": "#FFF",
+	"start_url": "/",
+	"display": "standalone"
 }

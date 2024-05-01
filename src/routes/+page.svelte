@@ -1,9 +1,9 @@
 <script lang="ts">
-	import { XMLParser } from 'fast-xml-parser';
-	import { findItems, type ItemObject } from '../lib/items';
+	import { parseSaveGame, type Player, type Item } from '../lib/saveGame.js';
 
-	let items: ItemObject[] = [];
+	let items: Item[] = [];
 	let filterByName = '';
+	let player: Player;
 
 	let files: FileList;
 
@@ -11,13 +11,14 @@
 		const file = files[0];
 
 		if (!file) return;
-		const parser = new XMLParser({ ignoreAttributes: false });
 
 		const reader = new FileReader();
 		reader.onload = (event) => {
 			const fileContent = event.target?.result as string;
-			const result = parser.parse(fileContent);
-			items = findItems(result);
+			const saveGame = parseSaveGame(fileContent);
+
+			items = saveGame.items;
+			player = saveGame.player;
 		};
 		reader.readAsText(file);
 	}
@@ -31,6 +32,22 @@
 	<div class="max-w-4xl w-full px-4 md:px-6">
 		<div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 md:p-8">
 			<div class="flex flex-col md:flex-row items-center justify-between mb-6">
+				<h1 class="text-2xl font-bold text-gray-900 dark:text-gray-100">Farm Info</h1>
+			</div>
+			<div>
+				Name: {player?.name ?? ''}
+			</div>
+			<div>
+				Farm Name: {player?.farmName ?? ''}
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="flex flex-col items-center justify-center bg-gray-100 dark:bg-gray-900 my-2">
+	<div class="max-w-4xl w-full px-4 md:px-6">
+		<div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 md:p-8">
+			<div class="flex flex-col md:flex-row items-center justify-between mb-6">
 				<h1 class="text-2xl font-bold text-gray-900 dark:text-gray-100">Saves Location</h1>
 			</div>
 			<div>
@@ -39,6 +56,7 @@
 		</div>
 	</div>
 </div>
+
 <div class="flex flex-col items-center justify-center bg-gray-100 dark:bg-gray-900">
 	<div class="max-w-4xl w-full px-4 md:px-6">
 		<div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 md:p-8">

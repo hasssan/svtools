@@ -1,4 +1,4 @@
-export interface ItemObject {
+export interface Item {
 	name: string;
 	stack: number;
 	quality: number;
@@ -26,15 +26,15 @@ const qualityNames: Record<number, string> = {
 	4: 'Iridium'
 };
 
-export function findItems(data: Record<string, unknown>) {
-	const items = findNestedObject(data, 'Item').flat() as ItemObject[];
+export function findAll(data: Record<string, unknown>) {
+	const allItems = findNestedObject(data, 'Item').flat() as Array<Item>;
 
-	const itemsObject = items
+	const items: Array<Item> = allItems
 		.filter((item) => item['@_xsi:type'] === 'Object')
 		.map((item) => {
 			const qualityName = qualityNames[item.quality];
 			return { ...item, qualityName };
 		});
 
-	return itemsObject;
+	return items;
 }
