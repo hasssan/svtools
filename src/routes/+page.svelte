@@ -49,6 +49,19 @@
 		<div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 md:p-8">
 			<div class="flex flex-col md:flex-row items-center justify-between mb-6">
 				<h1 class="text-2xl font-bold text-gray-900 dark:text-gray-100">Saves Location</h1>
+				<div class="flex items-center space-x-4">
+					<label for="file-upload">
+						<input
+							id="file-upload"
+							bind:files
+							required
+							type="file"
+							accept=""
+							class="file:rounded-full file:border-0 file:bg-indigo-200 file:text-indigo-700 hover:file:bg-indigo-100 inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 cursor-pointer"
+							on:change={handleSaveUpload}
+						/>
+					</label>
+				</div>
 			</div>
 			<div>
 				Windows: <code class="bg-gray-200 px-2">%appdata%\StardewValley\Saves</code>
@@ -87,19 +100,6 @@
 						placeholder="Filter by Name"
 						bind:value={filterByName}
 					/>
-				</div>
-				<div class="flex items-center space-x-4">
-					<label for="file-upload">
-						<input
-							id="file-upload"
-							bind:files
-							required
-							type="file"
-							accept=""
-							class="file:rounded-full file:border-0 file:bg-indigo-200 file:text-indigo-700 hover:file:bg-indigo-100 inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 cursor-pointer"
-							on:change={handleSaveUpload}
-						/>
-					</label>
 				</div>
 			</div>
 			<div class="overflow-x-auto py-4">
