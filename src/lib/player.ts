@@ -1,6 +1,7 @@
 export interface Player {
 	name: string;
 	farmName: string;
+	money: number;
 }
 
 export function getPlayer(saveGame: Record<string, unknown>): Player {
@@ -15,7 +16,8 @@ export function getPlayer(saveGame: Record<string, unknown>): Player {
 
 	const player: Player = {
 		name: parsedPlayer.name,
-		farmName: parsedPlayer.farmName
+		farmName: parsedPlayer.farmName,
+		money: parsedPlayer.money
 	};
 
 	return player;

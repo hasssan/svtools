@@ -48,6 +48,9 @@
 			<div>
 				Farm Name: {player?.farmName ?? ''}
 			</div>
+			<div>
+				Money: {player?.money ?? ''}
+			</div>
 		</div>
 	</div>
 </div>
