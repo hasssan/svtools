@@ -41,7 +41,7 @@
 	<div class="flex flex-col md:flex-row items-center justify-between mb-6">
 		<h1 class="text-2xl font-bold text-darkBrown">Farm Info</h1>
 	</div>
-	<div class="text-darkBrown">
+	<div class="text-darkBrown" data-testid="player-name">
 		Name: {player?.name ?? ''}
 	</div>
 	<div class="text-darkBrown">
