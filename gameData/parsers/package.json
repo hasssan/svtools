@@ -1,0 +1,22 @@
+{
+  "name": "parsers",
+  "version": "0.1.0",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "test": "vitest"
+  },
+  "author": "A. Hassan (https://hassan.web.id)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^20.12.8",
+    "eslint": "^9.1.1",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0"
+  }
+}
