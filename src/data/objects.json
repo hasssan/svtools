@@ -1,0 +1,4037 @@
+{
+  "0": {
+    "name": "Weeds",
+    "price": 0,
+    "categoryID": -999
+  },
+  "2": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "4": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "6": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "8": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "10": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "12": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "14": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "16": {
+    "name": "Wild Horseradish",
+    "price": 50,
+    "categoryID": -81
+  },
+  "18": {
+    "name": "Daffodil",
+    "price": 30,
+    "categoryID": -81
+  },
+  "20": {
+    "name": "Leek",
+    "price": 60,
+    "categoryID": -81
+  },
+  "22": {
+    "name": "Dandelion",
+    "price": 40,
+    "categoryID": -81
+  },
+  "24": {
+    "name": "Parsnip",
+    "price": 35,
+    "categoryID": -75
+  },
+  "25": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "30": {
+    "name": "Lumber",
+    "price": 2,
+    "categoryID": 0
+  },
+  "32": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "34": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "36": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "38": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "40": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "42": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "44": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "46": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "48": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "50": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "52": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "54": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "56": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "58": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "60": {
+    "name": "Emerald",
+    "price": 250,
+    "categoryID": -2
+  },
+  "62": {
+    "name": "Aquamarine",
+    "price": 180,
+    "categoryID": -2
+  },
+  "64": {
+    "name": "Ruby",
+    "price": 250,
+    "categoryID": -2
+  },
+  "66": {
+    "name": "Amethyst",
+    "price": 100,
+    "categoryID": -2
+  },
+  "68": {
+    "name": "Topaz",
+    "price": 80,
+    "categoryID": -2
+  },
+  "69": {
+    "name": "Banana Sapling",
+    "price": 850,
+    "categoryID": -74
+  },
+  "70": {
+    "name": "Jade",
+    "price": 200,
+    "categoryID": -2
+  },
+  "71": {
+    "name": "Trimmed Lucky Purple Shorts",
+    "price": 0,
+    "categoryID": 0
+  },
+  "72": {
+    "name": "Diamond",
+    "price": 750,
+    "categoryID": -2
+  },
+  "73": {
+    "name": "Golden Walnut",
+    "price": 250,
+    "categoryID": 0
+  },
+  "74": {
+    "name": "Prismatic Shard",
+    "price": 2000,
+    "categoryID": -2
+  },
+  "75": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "76": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "77": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "78": {
+    "name": "Cave Carrot",
+    "price": 25,
+    "categoryID": -81
+  },
+  "79": {
+    "name": "Secret Note",
+    "price": 1,
+    "categoryID": 0
+  },
+  "80": {
+    "name": "Quartz",
+    "price": 25,
+    "categoryID": -2
+  },
+  "82": {
+    "name": "Fire Quartz",
+    "price": 100,
+    "categoryID": -2
+  },
+  "84": {
+    "name": "Frozen Tear",
+    "price": 75,
+    "categoryID": -2
+  },
+  "86": {
+    "name": "Earth Crystal",
+    "price": 50,
+    "categoryID": -2
+  },
+  "88": {
+    "name": "Coconut",
+    "price": 100,
+    "categoryID": -79
+  },
+  "90": {
+    "name": "Cactus Fruit",
+    "price": 75,
+    "categoryID": -79
+  },
+  "91": {
+    "name": "Banana",
+    "price": 150,
+    "categoryID": -79
+  },
+  "92": {
+    "name": "Sap",
+    "price": 2,
+    "categoryID": -81
+  },
+  "93": {
+    "name": "Torch",
+    "price": 5,
+    "categoryID": 0
+  },
+  "94": {
+    "name": "Spirit Torch",
+    "price": 5,
+    "categoryID": 0
+  },
+  "95": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "96": {
+    "name": "Dwarf Scroll I",
+    "price": 1,
+    "categoryID": 0
+  },
+  "97": {
+    "name": "Dwarf Scroll II",
+    "price": 1,
+    "categoryID": 0
+  },
+  "98": {
+    "name": "Dwarf Scroll III",
+    "price": 1,
+    "categoryID": 0
+  },
+  "99": {
+    "name": "Dwarf Scroll IV",
+    "price": 1,
+    "categoryID": 0
+  },
+  "100": {
+    "name": "Chipped Amphora",
+    "price": 40,
+    "categoryID": 0
+  },
+  "101": {
+    "name": "Arrowhead",
+    "price": 40,
+    "categoryID": 0
+  },
+  "102": {
+    "name": "Lost Book",
+    "price": 0,
+    "categoryID": 0
+  },
+  "103": {
+    "name": "Ancient Doll",
+    "price": 60,
+    "categoryID": 0
+  },
+  "104": {
+    "name": "Elvish Jewelry",
+    "price": 200,
+    "categoryID": 0
+  },
+  "105": {
+    "name": "Chewing Stick",
+    "price": 50,
+    "categoryID": 0
+  },
+  "106": {
+    "name": "Ornamental Fan",
+    "price": 300,
+    "categoryID": 0
+  },
+  "107": {
+    "name": "Dinosaur Egg",
+    "price": 350,
+    "categoryID": 0
+  },
+  "108": {
+    "name": "Rare Disc",
+    "price": 300,
+    "categoryID": 0
+  },
+  "109": {
+    "name": "Ancient Sword",
+    "price": 100,
+    "categoryID": 0
+  },
+  "110": {
+    "name": "Rusty Spoon",
+    "price": 25,
+    "categoryID": 0
+  },
+  "111": {
+    "name": "Rusty Spur",
+    "price": 25,
+    "categoryID": 0
+  },
+  "112": {
+    "name": "Rusty Cog",
+    "price": 25,
+    "categoryID": 0
+  },
+  "113": {
+    "name": "Chicken Statue",
+    "price": 50,
+    "categoryID": 0
+  },
+  "114": {
+    "name": "Ancient Seed",
+    "price": 5,
+    "categoryID": 0
+  },
+  "115": {
+    "name": "Prehistoric Tool",
+    "price": 50,
+    "categoryID": 0
+  },
+  "116": {
+    "name": "Dried Starfish",
+    "price": 40,
+    "categoryID": 0
+  },
+  "117": {
+    "name": "Anchor",
+    "price": 100,
+    "categoryID": 0
+  },
+  "118": {
+    "name": "Glass Shards",
+    "price": 20,
+    "categoryID": 0
+  },
+  "119": {
+    "name": "Bone Flute",
+    "price": 100,
+    "categoryID": 0
+  },
+  "120": {
+    "name": "Prehistoric Handaxe",
+    "price": 50,
+    "categoryID": 0
+  },
+  "121": {
+    "name": "Dwarvish Helm",
+    "price": 100,
+    "categoryID": 0
+  },
+  "122": {
+    "name": "Dwarf Gadget",
+    "price": 200,
+    "categoryID": 0
+  },
+  "123": {
+    "name": "Ancient Drum",
+    "price": 100,
+    "categoryID": 0
+  },
+  "124": {
+    "name": "Golden Mask",
+    "price": 500,
+    "categoryID": 0
+  },
+  "125": {
+    "name": "Golden Relic",
+    "price": 250,
+    "categoryID": 0
+  },
+  "126": {
+    "name": "Strange Doll",
+    "price": 1000,
+    "categoryID": 0
+  },
+  "127": {
+    "name": "Strange Doll",
+    "price": 1000,
+    "categoryID": 0
+  },
+  "128": {
+    "name": "Pufferfish",
+    "price": 200,
+    "categoryID": -4
+  },
+  "129": {
+    "name": "Anchovy",
+    "price": 30,
+    "categoryID": -4
+  },
+  "130": {
+    "name": "Tuna",
+    "price": 100,
+    "categoryID": -4
+  },
+  "131": {
+    "name": "Sardine",
+    "price": 40,
+    "categoryID": -4
+  },
+  "132": {
+    "name": "Bream",
+    "price": 45,
+    "categoryID": -4
+  },
+  "136": {
+    "name": "Largemouth Bass",
+    "price": 100,
+    "categoryID": -4
+  },
+  "137": {
+    "name": "Smallmouth Bass",
+    "price": 50,
+    "categoryID": -4
+  },
+  "138": {
+    "name": "Rainbow Trout",
+    "price": 65,
+    "categoryID": -4
+  },
+  "139": {
+    "name": "Salmon",
+    "price": 75,
+    "categoryID": -4
+  },
+  "140": {
+    "name": "Walleye",
+    "price": 105,
+    "categoryID": -4
+  },
+  "141": {
+    "name": "Perch",
+    "price": 55,
+    "categoryID": -4
+  },
+  "142": {
+    "name": "Carp",
+    "price": 30,
+    "categoryID": -4
+  },
+  "143": {
+    "name": "Catfish",
+    "price": 200,
+    "categoryID": -4
+  },
+  "144": {
+    "name": "Pike",
+    "price": 100,
+    "categoryID": -4
+  },
+  "145": {
+    "name": "Sunfish",
+    "price": 30,
+    "categoryID": -4
+  },
+  "146": {
+    "name": "Red Mullet",
+    "price": 75,
+    "categoryID": -4
+  },
+  "147": {
+    "name": "Herring",
+    "price": 30,
+    "categoryID": -4
+  },
+  "148": {
+    "name": "Eel",
+    "price": 85,
+    "categoryID": -4
+  },
+  "149": {
+    "name": "Octopus",
+    "price": 150,
+    "categoryID": -4
+  },
+  "150": {
+    "name": "Red Snapper",
+    "price": 50,
+    "categoryID": -4
+  },
+  "151": {
+    "name": "Squid",
+    "price": 80,
+    "categoryID": -4
+  },
+  "152": {
+    "name": "Seaweed",
+    "price": 20,
+    "categoryID": 0
+  },
+  "153": {
+    "name": "Green Algae",
+    "price": 15,
+    "categoryID": 0
+  },
+  "154": {
+    "name": "Sea Cucumber",
+    "price": 75,
+    "categoryID": -4
+  },
+  "155": {
+    "name": "Super Cucumber",
+    "price": 250,
+    "categoryID": -4
+  },
+  "156": {
+    "name": "Ghostfish",
+    "price": 45,
+    "categoryID": -4
+  },
+  "157": {
+    "name": "White Algae",
+    "price": 25,
+    "categoryID": 0
+  },
+  "158": {
+    "name": "Stonefish",
+    "price": 300,
+    "categoryID": -4
+  },
+  "159": {
+    "name": "Crimsonfish",
+    "price": 1500,
+    "categoryID": -4
+  },
+  "160": {
+    "name": "Angler",
+    "price": 900,
+    "categoryID": -4
+  },
+  "161": {
+    "name": "Ice Pip",
+    "price": 500,
+    "categoryID": -4
+  },
+  "162": {
+    "name": "Lava Eel",
+    "price": 700,
+    "categoryID": -4
+  },
+  "163": {
+    "name": "Legend",
+    "price": 5000,
+    "categoryID": -4
+  },
+  "164": {
+    "name": "Sandfish",
+    "price": 75,
+    "categoryID": -4
+  },
+  "165": {
+    "name": "Scorpion Carp",
+    "price": 150,
+    "categoryID": -4
+  },
+  "166": {
+    "name": "Treasure Chest",
+    "price": 5000,
+    "categoryID": 0
+  },
+  "167": {
+    "name": "Joja Cola",
+    "price": 25,
+    "categoryID": -20
+  },
+  "168": {
+    "name": "Trash",
+    "price": 0,
+    "categoryID": -20
+  },
+  "169": {
+    "name": "Driftwood",
+    "price": 0,
+    "categoryID": -20
+  },
+  "170": {
+    "name": "Broken Glasses",
+    "price": 0,
+    "categoryID": -20
+  },
+  "171": {
+    "name": "Broken CD",
+    "price": 0,
+    "categoryID": -20
+  },
+  "172": {
+    "name": "Soggy Newspaper",
+    "price": 0,
+    "categoryID": -20
+  },
+  "174": {
+    "name": "Large Egg",
+    "price": 95,
+    "categoryID": -5
+  },
+  "176": {
+    "name": "Egg",
+    "price": 50,
+    "categoryID": -5
+  },
+  "178": {
+    "name": "Hay",
+    "price": 0,
+    "categoryID": 0
+  },
+  "180": {
+    "name": "Egg",
+    "price": 50,
+    "categoryID": -5
+  },
+  "182": {
+    "name": "Large Egg",
+    "price": 95,
+    "categoryID": -5
+  },
+  "184": {
+    "name": "Milk",
+    "price": 125,
+    "categoryID": -6
+  },
+  "186": {
+    "name": "Large Milk",
+    "price": 190,
+    "categoryID": -6
+  },
+  "188": {
+    "name": "Green Bean",
+    "price": 40,
+    "categoryID": -75
+  },
+  "190": {
+    "name": "Cauliflower",
+    "price": 175,
+    "categoryID": -75
+  },
+  "191": {
+    "name": "Ornate Necklace",
+    "price": 0,
+    "categoryID": 0
+  },
+  "192": {
+    "name": "Potato",
+    "price": 80,
+    "categoryID": -75
+  },
+  "194": {
+    "name": "Fried Egg",
+    "price": 35,
+    "categoryID": -7
+  },
+  "195": {
+    "name": "Omelet",
+    "price": 125,
+    "categoryID": -7
+  },
+  "196": {
+    "name": "Salad",
+    "price": 110,
+    "categoryID": -7
+  },
+  "197": {
+    "name": "Cheese Cauliflower",
+    "price": 300,
+    "categoryID": -7
+  },
+  "198": {
+    "name": "Baked Fish",
+    "price": 100,
+    "categoryID": -7
+  },
+  "199": {
+    "name": "Parsnip Soup",
+    "price": 120,
+    "categoryID": -7
+  },
+  "200": {
+    "name": "Vegetable Medley",
+    "price": 120,
+    "categoryID": -7
+  },
+  "201": {
+    "name": "Complete Breakfast",
+    "price": 350,
+    "categoryID": -7
+  },
+  "202": {
+    "name": "Fried Calamari",
+    "price": 150,
+    "categoryID": -7
+  },
+  "203": {
+    "name": "Strange Bun",
+    "price": 225,
+    "categoryID": -7
+  },
+  "204": {
+    "name": "Lucky Lunch",
+    "price": 250,
+    "categoryID": -7
+  },
+  "205": {
+    "name": "Fried Mushroom",
+    "price": 200,
+    "categoryID": -7
+  },
+  "206": {
+    "name": "Pizza",
+    "price": 300,
+    "categoryID": -7
+  },
+  "207": {
+    "name": "Bean Hotpot",
+    "price": 100,
+    "categoryID": -7
+  },
+  "208": {
+    "name": "Glazed Yams",
+    "price": 200,
+    "categoryID": -7
+  },
+  "209": {
+    "name": "Carp Surprise",
+    "price": 150,
+    "categoryID": -7
+  },
+  "210": {
+    "name": "Hashbrowns",
+    "price": 120,
+    "categoryID": -7
+  },
+  "211": {
+    "name": "Pancakes",
+    "price": 80,
+    "categoryID": -7
+  },
+  "212": {
+    "name": "Salmon Dinner",
+    "price": 300,
+    "categoryID": -7
+  },
+  "213": {
+    "name": "Fish Taco",
+    "price": 500,
+    "categoryID": -7
+  },
+  "214": {
+    "name": "Crispy Bass",
+    "price": 150,
+    "categoryID": -7
+  },
+  "215": {
+    "name": "Pepper Poppers",
+    "price": 200,
+    "categoryID": -7
+  },
+  "216": {
+    "name": "Bread",
+    "price": 60,
+    "categoryID": -7
+  },
+  "218": {
+    "name": "Tom Kha Soup",
+    "price": 250,
+    "categoryID": -7
+  },
+  "219": {
+    "name": "Trout Soup",
+    "price": 100,
+    "categoryID": -7
+  },
+  "220": {
+    "name": "Chocolate Cake",
+    "price": 200,
+    "categoryID": -7
+  },
+  "221": {
+    "name": "Pink Cake",
+    "price": 480,
+    "categoryID": -7
+  },
+  "222": {
+    "name": "Rhubarb Pie",
+    "price": 400,
+    "categoryID": -7
+  },
+  "223": {
+    "name": "Cookie",
+    "price": 140,
+    "categoryID": -7
+  },
+  "224": {
+    "name": "Spaghetti",
+    "price": 120,
+    "categoryID": -7
+  },
+  "225": {
+    "name": "Fried Eel",
+    "price": 120,
+    "categoryID": -7
+  },
+  "226": {
+    "name": "Spicy Eel",
+    "price": 175,
+    "categoryID": -7
+  },
+  "227": {
+    "name": "Sashimi",
+    "price": 75,
+    "categoryID": -7
+  },
+  "228": {
+    "name": "Maki Roll",
+    "price": 220,
+    "categoryID": -7
+  },
+  "229": {
+    "name": "Tortilla",
+    "price": 50,
+    "categoryID": -7
+  },
+  "230": {
+    "name": "Red Plate",
+    "price": 400,
+    "categoryID": -7
+  },
+  "231": {
+    "name": "Eggplant Parmesan",
+    "price": 200,
+    "categoryID": -7
+  },
+  "232": {
+    "name": "Rice Pudding",
+    "price": 260,
+    "categoryID": -7
+  },
+  "233": {
+    "name": "Ice Cream",
+    "price": 120,
+    "categoryID": -7
+  },
+  "234": {
+    "name": "Blueberry Tart",
+    "price": 150,
+    "categoryID": -7
+  },
+  "235": {
+    "name": "Autumn's Bounty",
+    "price": 350,
+    "categoryID": -7
+  },
+  "236": {
+    "name": "Pumpkin Soup",
+    "price": 300,
+    "categoryID": -7
+  },
+  "237": {
+    "name": "Super Meal",
+    "price": 220,
+    "categoryID": -7
+  },
+  "238": {
+    "name": "Cranberry Sauce",
+    "price": 120,
+    "categoryID": -7
+  },
+  "239": {
+    "name": "Stuffing",
+    "price": 165,
+    "categoryID": -7
+  },
+  "240": {
+    "name": "Farmer's Lunch",
+    "price": 150,
+    "categoryID": -7
+  },
+  "241": {
+    "name": "Survival Burger",
+    "price": 180,
+    "categoryID": -7
+  },
+  "242": {
+    "name": "Dish O' The Sea",
+    "price": 220,
+    "categoryID": -7
+  },
+  "243": {
+    "name": "Miner's Treat",
+    "price": 200,
+    "categoryID": -7
+  },
+  "244": {
+    "name": "Roots Platter",
+    "price": 100,
+    "categoryID": -7
+  },
+  "245": {
+    "name": "Sugar",
+    "price": 50,
+    "categoryID": 0
+  },
+  "246": {
+    "name": "Wheat Flour",
+    "price": 50,
+    "categoryID": 0
+  },
+  "247": {
+    "name": "Oil",
+    "price": 100,
+    "categoryID": 0
+  },
+  "248": {
+    "name": "Garlic",
+    "price": 60,
+    "categoryID": -75
+  },
+  "250": {
+    "name": "Kale",
+    "price": 110,
+    "categoryID": -75
+  },
+  "251": {
+    "name": "Tea Sapling",
+    "price": 250,
+    "categoryID": -74
+  },
+  "252": {
+    "name": "Rhubarb",
+    "price": 220,
+    "categoryID": -79
+  },
+  "253": {
+    "name": "Triple Shot Espresso",
+    "price": 450,
+    "categoryID": -7
+  },
+  "254": {
+    "name": "Melon",
+    "price": 250,
+    "categoryID": -79
+  },
+  "256": {
+    "name": "Tomato",
+    "price": 60,
+    "categoryID": -75
+  },
+  "257": {
+    "name": "Morel",
+    "price": 150,
+    "categoryID": -81
+  },
+  "258": {
+    "name": "Blueberry",
+    "price": 50,
+    "categoryID": -79
+  },
+  "259": {
+    "name": "Fiddlehead Fern",
+    "price": 90,
+    "categoryID": -75
+  },
+  "260": {
+    "name": "Hot Pepper",
+    "price": 40,
+    "categoryID": -79
+  },
+  "261": {
+    "name": "Warp Totem: Desert",
+    "price": 20,
+    "categoryID": 0
+  },
+  "262": {
+    "name": "Wheat",
+    "price": 25,
+    "categoryID": -75
+  },
+  "264": {
+    "name": "Radish",
+    "price": 90,
+    "categoryID": -75
+  },
+  "265": {
+    "name": "Seafoam Pudding",
+    "price": 300,
+    "categoryID": -7
+  },
+  "266": {
+    "name": "Red Cabbage",
+    "price": 260,
+    "categoryID": -75
+  },
+  "267": {
+    "name": "Flounder",
+    "price": 100,
+    "categoryID": -4
+  },
+  "268": {
+    "name": "Starfruit",
+    "price": 750,
+    "categoryID": -79
+  },
+  "269": {
+    "name": "Midnight Carp",
+    "price": 150,
+    "categoryID": -4
+  },
+  "270": {
+    "name": "Corn",
+    "price": 50,
+    "categoryID": -75
+  },
+  "271": {
+    "name": "Unmilled Rice",
+    "price": 30,
+    "categoryID": -75
+  },
+  "272": {
+    "name": "Eggplant",
+    "price": 60,
+    "categoryID": -75
+  },
+  "273": {
+    "name": "Rice Shoot",
+    "price": 20,
+    "categoryID": -74
+  },
+  "274": {
+    "name": "Artichoke",
+    "price": 160,
+    "categoryID": -75
+  },
+  "275": {
+    "name": "Artifact Trove",
+    "price": 0,
+    "categoryID": 0
+  },
+  "276": {
+    "name": "Pumpkin",
+    "price": 320,
+    "categoryID": -75
+  },
+  "277": {
+    "name": "Wilted Bouquet",
+    "price": 100,
+    "categoryID": 0
+  },
+  "278": {
+    "name": "Bok Choy",
+    "price": 80,
+    "categoryID": -75
+  },
+  "279": {
+    "name": "Magic Rock Candy",
+    "price": 5000,
+    "categoryID": -7
+  },
+  "280": {
+    "name": "Yam",
+    "price": 160,
+    "categoryID": -75
+  },
+  "281": {
+    "name": "Chanterelle",
+    "price": 160,
+    "categoryID": -81
+  },
+  "282": {
+    "name": "Cranberries",
+    "price": 75,
+    "categoryID": -79
+  },
+  "283": {
+    "name": "Holly",
+    "price": 80,
+    "categoryID": -81
+  },
+  "284": {
+    "name": "Beet",
+    "price": 100,
+    "categoryID": -75
+  },
+  "286": {
+    "name": "Cherry Bomb",
+    "price": 50,
+    "categoryID": -8
+  },
+  "287": {
+    "name": "Bomb",
+    "price": 50,
+    "categoryID": -8
+  },
+  "288": {
+    "name": "Mega Bomb",
+    "price": 50,
+    "categoryID": -8
+  },
+  "289": {
+    "name": "Ostrich Egg",
+    "price": 600,
+    "categoryID": -5
+  },
+  "290": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "292": {
+    "name": "Mahogany Seed",
+    "price": 100,
+    "categoryID": -74
+  },
+  "293": {
+    "name": "Brick Floor",
+    "price": 1,
+    "categoryID": -24
+  },
+  "294": {
+    "name": "Twig",
+    "price": 0,
+    "categoryID": -999
+  },
+  "295": {
+    "name": "Twig",
+    "price": 0,
+    "categoryID": -999
+  },
+  "296": {
+    "name": "Salmonberry",
+    "price": 5,
+    "categoryID": -79
+  },
+  "297": {
+    "name": "Grass Starter",
+    "price": 50,
+    "categoryID": 0
+  },
+  "298": {
+    "name": "Hardwood Fence",
+    "price": 10,
+    "categoryID": -8
+  },
+  "299": {
+    "name": "Amaranth Seeds",
+    "price": 35,
+    "categoryID": -74
+  },
+  "300": {
+    "name": "Amaranth",
+    "price": 150,
+    "categoryID": -75
+  },
+  "301": {
+    "name": "Grape Starter",
+    "price": 30,
+    "categoryID": -74
+  },
+  "302": {
+    "name": "Hops Starter",
+    "price": 30,
+    "categoryID": -74
+  },
+  "303": {
+    "name": "Pale Ale",
+    "price": 300,
+    "categoryID": -26
+  },
+  "304": {
+    "name": "Hops",
+    "price": 25,
+    "categoryID": -75
+  },
+  "305": {
+    "name": "Void Egg",
+    "price": 65,
+    "categoryID": -5
+  },
+  "306": {
+    "name": "Mayonnaise",
+    "price": 190,
+    "categoryID": -26
+  },
+  "307": {
+    "name": "Duck Mayonnaise",
+    "price": 375,
+    "categoryID": -26
+  },
+  "308": {
+    "name": "Void Mayonnaise",
+    "price": 275,
+    "categoryID": -26
+  },
+  "309": {
+    "name": "Acorn",
+    "price": 20,
+    "categoryID": -74
+  },
+  "310": {
+    "name": "Maple Seed",
+    "price": 5,
+    "categoryID": -74
+  },
+  "311": {
+    "name": "Pine Cone",
+    "price": 5,
+    "categoryID": -74
+  },
+  "313": {
+    "name": "Weeds",
+    "price": 0,
+    "categoryID": -999
+  },
+  "314": {
+    "name": "Weeds",
+    "price": 0,
+    "categoryID": -999
+  },
+  "315": {
+    "name": "Weeds",
+    "price": 0,
+    "categoryID": -999
+  },
+  "316": {
+    "name": "Weeds",
+    "price": 0,
+    "categoryID": -999
+  },
+  "317": {
+    "name": "Weeds",
+    "price": 0,
+    "categoryID": -999
+  },
+  "318": {
+    "name": "Weeds",
+    "price": 0,
+    "categoryID": -999
+  },
+  "319": {
+    "name": "Weeds",
+    "price": 0,
+    "categoryID": -999
+  },
+  "320": {
+    "name": "Weeds",
+    "price": 0,
+    "categoryID": -999
+  },
+  "321": {
+    "name": "Weeds",
+    "price": 0,
+    "categoryID": -999
+  },
+  "322": {
+    "name": "Wood Fence",
+    "price": 1,
+    "categoryID": -8
+  },
+  "323": {
+    "name": "Stone Fence",
+    "price": 2,
+    "categoryID": -8
+  },
+  "324": {
+    "name": "Iron Fence",
+    "price": 6,
+    "categoryID": -8
+  },
+  "325": {
+    "name": "Gate",
+    "price": 4,
+    "categoryID": -8
+  },
+  "326": {
+    "name": "Dwarvish Translation Guide",
+    "price": 50,
+    "categoryID": -8
+  },
+  "328": {
+    "name": "Wood Floor",
+    "price": 1,
+    "categoryID": -24
+  },
+  "329": {
+    "name": "Stone Floor",
+    "price": 1,
+    "categoryID": -24
+  },
+  "330": {
+    "name": "Clay",
+    "price": 20,
+    "categoryID": -16
+  },
+  "331": {
+    "name": "Weathered Floor",
+    "price": 1,
+    "categoryID": -24
+  },
+  "333": {
+    "name": "Crystal Floor",
+    "price": 1,
+    "categoryID": -24
+  },
+  "334": {
+    "name": "Copper Bar",
+    "price": 60,
+    "categoryID": -15
+  },
+  "335": {
+    "name": "Iron Bar",
+    "price": 120,
+    "categoryID": -15
+  },
+  "336": {
+    "name": "Gold Bar",
+    "price": 250,
+    "categoryID": -15
+  },
+  "337": {
+    "name": "Iridium Bar",
+    "price": 1000,
+    "categoryID": -15
+  },
+  "338": {
+    "name": "Refined Quartz",
+    "price": 50,
+    "categoryID": -15
+  },
+  "340": {
+    "name": "Honey",
+    "price": 100,
+    "categoryID": -26
+  },
+  "341": {
+    "name": "Tea Set",
+    "price": 200,
+    "categoryID": -24
+  },
+  "342": {
+    "name": "Pickles",
+    "price": 100,
+    "categoryID": -26
+  },
+  "343": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "344": {
+    "name": "Jelly",
+    "price": 160,
+    "categoryID": -26
+  },
+  "346": {
+    "name": "Beer",
+    "price": 200,
+    "categoryID": -26
+  },
+  "347": {
+    "name": "Rare Seed",
+    "price": 200,
+    "categoryID": -74
+  },
+  "348": {
+    "name": "Wine",
+    "price": 400,
+    "categoryID": -26
+  },
+  "349": {
+    "name": "Energy Tonic",
+    "price": 500,
+    "categoryID": 0
+  },
+  "350": {
+    "name": "Juice",
+    "price": 150,
+    "categoryID": -26
+  },
+  "351": {
+    "name": "Muscle Remedy",
+    "price": 500,
+    "categoryID": 0
+  },
+  "368": {
+    "name": "Basic Fertilizer",
+    "price": 2,
+    "categoryID": -19
+  },
+  "369": {
+    "name": "Quality Fertilizer",
+    "price": 10,
+    "categoryID": -19
+  },
+  "370": {
+    "name": "Basic Retaining Soil",
+    "price": 4,
+    "categoryID": -19
+  },
+  "371": {
+    "name": "Quality Retaining Soil",
+    "price": 5,
+    "categoryID": -19
+  },
+  "372": {
+    "name": "Clam",
+    "price": 50,
+    "categoryID": -4
+  },
+  "373": {
+    "name": "Golden Pumpkin",
+    "price": 2500,
+    "categoryID": 0
+  },
+  "376": {
+    "name": "Poppy",
+    "price": 140,
+    "categoryID": -80
+  },
+  "378": {
+    "name": "Copper Ore",
+    "price": 5,
+    "categoryID": -15
+  },
+  "380": {
+    "name": "Iron Ore",
+    "price": 10,
+    "categoryID": -15
+  },
+  "382": {
+    "name": "Coal",
+    "price": 15,
+    "categoryID": -15
+  },
+  "384": {
+    "name": "Gold Ore",
+    "price": 25,
+    "categoryID": -15
+  },
+  "386": {
+    "name": "Iridium Ore",
+    "price": 100,
+    "categoryID": -15
+  },
+  "388": {
+    "name": "Wood",
+    "price": 2,
+    "categoryID": -16
+  },
+  "390": {
+    "name": "Stone",
+    "price": 2,
+    "categoryID": -16
+  },
+  "392": {
+    "name": "Nautilus Shell",
+    "price": 120,
+    "categoryID": -23
+  },
+  "393": {
+    "name": "Coral",
+    "price": 80,
+    "categoryID": -23
+  },
+  "394": {
+    "name": "Rainbow Shell",
+    "price": 300,
+    "categoryID": -23
+  },
+  "395": {
+    "name": "Coffee",
+    "price": 150,
+    "categoryID": 0
+  },
+  "396": {
+    "name": "Spice Berry",
+    "price": 80,
+    "categoryID": -79
+  },
+  "397": {
+    "name": "Sea Urchin",
+    "price": 160,
+    "categoryID": -23
+  },
+  "398": {
+    "name": "Grape",
+    "price": 80,
+    "categoryID": -79
+  },
+  "399": {
+    "name": "Spring Onion",
+    "price": 8,
+    "categoryID": -81
+  },
+  "400": {
+    "name": "Strawberry",
+    "price": 120,
+    "categoryID": -79
+  },
+  "401": {
+    "name": "Straw Floor",
+    "price": 1,
+    "categoryID": -24
+  },
+  "402": {
+    "name": "Sweet Pea",
+    "price": 50,
+    "categoryID": -80
+  },
+  "403": {
+    "name": "Field Snack",
+    "price": 20,
+    "categoryID": 0
+  },
+  "404": {
+    "name": "Common Mushroom",
+    "price": 40,
+    "categoryID": -81
+  },
+  "405": {
+    "name": "Wood Path",
+    "price": 1,
+    "categoryID": -24
+  },
+  "406": {
+    "name": "Wild Plum",
+    "price": 80,
+    "categoryID": -79
+  },
+  "407": {
+    "name": "Gravel Path",
+    "price": 1,
+    "categoryID": -24
+  },
+  "408": {
+    "name": "Hazelnut",
+    "price": 90,
+    "categoryID": -81
+  },
+  "409": {
+    "name": "Crystal Path",
+    "price": 1,
+    "categoryID": -24
+  },
+  "410": {
+    "name": "Blackberry",
+    "price": 20,
+    "categoryID": -79
+  },
+  "411": {
+    "name": "Cobblestone Path",
+    "price": 1,
+    "categoryID": -24
+  },
+  "412": {
+    "name": "Winter Root",
+    "price": 70,
+    "categoryID": -81
+  },
+  "413": {
+    "name": "Blue Slime Egg",
+    "price": 1750,
+    "categoryID": 0
+  },
+  "414": {
+    "name": "Crystal Fruit",
+    "price": 150,
+    "categoryID": -79
+  },
+  "415": {
+    "name": "Stepping Stone Path",
+    "price": 1,
+    "categoryID": -24
+  },
+  "416": {
+    "name": "Snow Yam",
+    "price": 100,
+    "categoryID": -81
+  },
+  "417": {
+    "name": "Sweet Gem Berry",
+    "price": 3000,
+    "categoryID": -17
+  },
+  "418": {
+    "name": "Crocus",
+    "price": 60,
+    "categoryID": -80
+  },
+  "419": {
+    "name": "Vinegar",
+    "price": 100,
+    "categoryID": 0
+  },
+  "420": {
+    "name": "Red Mushroom",
+    "price": 75,
+    "categoryID": -81
+  },
+  "421": {
+    "name": "Sunflower",
+    "price": 80,
+    "categoryID": -80
+  },
+  "422": {
+    "name": "Purple Mushroom",
+    "price": 250,
+    "categoryID": -81
+  },
+  "423": {
+    "name": "Rice",
+    "price": 100,
+    "categoryID": 0
+  },
+  "424": {
+    "name": "Cheese",
+    "price": 230,
+    "categoryID": -26
+  },
+  "425": {
+    "name": "Fairy Seeds",
+    "price": 100,
+    "categoryID": -74
+  },
+  "426": {
+    "name": "Goat Cheese",
+    "price": 400,
+    "categoryID": -26
+  },
+  "427": {
+    "name": "Tulip Bulb",
+    "price": 10,
+    "categoryID": -74
+  },
+  "428": {
+    "name": "Cloth",
+    "price": 470,
+    "categoryID": -26
+  },
+  "429": {
+    "name": "Jazz Seeds",
+    "price": 15,
+    "categoryID": -74
+  },
+  "430": {
+    "name": "Truffle",
+    "price": 625,
+    "categoryID": -17
+  },
+  "431": {
+    "name": "Sunflower Seeds",
+    "price": 20,
+    "categoryID": -74
+  },
+  "432": {
+    "name": "Truffle Oil",
+    "price": 1065,
+    "categoryID": -26
+  },
+  "433": {
+    "name": "Coffee Bean",
+    "price": 15,
+    "categoryID": -74
+  },
+  "434": {
+    "name": "Stardrop",
+    "price": 7777,
+    "categoryID": 0
+  },
+  "436": {
+    "name": "Goat Milk",
+    "price": 225,
+    "categoryID": -6
+  },
+  "437": {
+    "name": "Red Slime Egg",
+    "price": 2500,
+    "categoryID": 0
+  },
+  "438": {
+    "name": "L. Goat Milk",
+    "price": 345,
+    "categoryID": -6
+  },
+  "439": {
+    "name": "Purple Slime Egg",
+    "price": 5000,
+    "categoryID": 0
+  },
+  "440": {
+    "name": "Wool",
+    "price": 340,
+    "categoryID": -18
+  },
+  "441": {
+    "name": "Explosive Ammo",
+    "price": 20,
+    "categoryID": 0
+  },
+  "442": {
+    "name": "Duck Egg",
+    "price": 95,
+    "categoryID": -5
+  },
+  "444": {
+    "name": "Duck Feather",
+    "price": 250,
+    "categoryID": -18
+  },
+  "445": {
+    "name": "Caviar",
+    "price": 500,
+    "categoryID": -26
+  },
+  "446": {
+    "name": "Rabbit's Foot",
+    "price": 565,
+    "categoryID": -18
+  },
+  "447": {
+    "name": "Aged Roe",
+    "price": 100,
+    "categoryID": -26
+  },
+  "449": {
+    "name": "Stone Base",
+    "price": 0,
+    "categoryID": 0
+  },
+  "450": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "452": {
+    "name": "Weeds",
+    "price": 0,
+    "categoryID": -999
+  },
+  "453": {
+    "name": "Poppy Seeds",
+    "price": 50,
+    "categoryID": -74
+  },
+  "454": {
+    "name": "Ancient Fruit",
+    "price": 550,
+    "categoryID": -79
+  },
+  "455": {
+    "name": "Spangle Seeds",
+    "price": 25,
+    "categoryID": -74
+  },
+  "456": {
+    "name": "Algae Soup",
+    "price": 100,
+    "categoryID": -7
+  },
+  "457": {
+    "name": "Pale Broth",
+    "price": 150,
+    "categoryID": -7
+  },
+  "458": {
+    "name": "Bouquet",
+    "price": 100,
+    "categoryID": 0
+  },
+  "459": {
+    "name": "Mead",
+    "price": 300,
+    "categoryID": -26
+  },
+  "460": {
+    "name": "Mermaid's Pendant",
+    "price": 2500,
+    "categoryID": 0
+  },
+  "461": {
+    "name": "Decorative Pot",
+    "price": 200,
+    "categoryID": 0
+  },
+  "463": {
+    "name": "Drum Block",
+    "price": 100,
+    "categoryID": 0
+  },
+  "464": {
+    "name": "Flute Block",
+    "price": 100,
+    "categoryID": 0
+  },
+  "465": {
+    "name": "Speed-Gro",
+    "price": 20,
+    "categoryID": -19
+  },
+  "466": {
+    "name": "Deluxe Speed-Gro",
+    "price": 40,
+    "categoryID": -19
+  },
+  "472": {
+    "name": "Parsnip Seeds",
+    "price": 10,
+    "categoryID": -74
+  },
+  "473": {
+    "name": "Bean Starter",
+    "price": 30,
+    "categoryID": -74
+  },
+  "474": {
+    "name": "Cauliflower Seeds",
+    "price": 40,
+    "categoryID": -74
+  },
+  "475": {
+    "name": "Potato Seeds",
+    "price": 25,
+    "categoryID": -74
+  },
+  "476": {
+    "name": "Garlic Seeds",
+    "price": 20,
+    "categoryID": -74
+  },
+  "477": {
+    "name": "Kale Seeds",
+    "price": 35,
+    "categoryID": -74
+  },
+  "478": {
+    "name": "Rhubarb Seeds",
+    "price": 50,
+    "categoryID": -74
+  },
+  "479": {
+    "name": "Melon Seeds",
+    "price": 40,
+    "categoryID": -74
+  },
+  "480": {
+    "name": "Tomato Seeds",
+    "price": 25,
+    "categoryID": -74
+  },
+  "481": {
+    "name": "Blueberry Seeds",
+    "price": 40,
+    "categoryID": -74
+  },
+  "482": {
+    "name": "Pepper Seeds",
+    "price": 20,
+    "categoryID": -74
+  },
+  "483": {
+    "name": "Wheat Seeds",
+    "price": 5,
+    "categoryID": -74
+  },
+  "484": {
+    "name": "Radish Seeds",
+    "price": 20,
+    "categoryID": -74
+  },
+  "485": {
+    "name": "Red Cabbage Seeds",
+    "price": 50,
+    "categoryID": -74
+  },
+  "486": {
+    "name": "Starfruit Seeds",
+    "price": 200,
+    "categoryID": -74
+  },
+  "487": {
+    "name": "Corn Seeds",
+    "price": 75,
+    "categoryID": -74
+  },
+  "488": {
+    "name": "Eggplant Seeds",
+    "price": 10,
+    "categoryID": -74
+  },
+  "489": {
+    "name": "Artichoke Seeds",
+    "price": 15,
+    "categoryID": -74
+  },
+  "490": {
+    "name": "Pumpkin Seeds",
+    "price": 50,
+    "categoryID": -74
+  },
+  "491": {
+    "name": "Bok Choy Seeds",
+    "price": 25,
+    "categoryID": -74
+  },
+  "492": {
+    "name": "Yam Seeds",
+    "price": 30,
+    "categoryID": -74
+  },
+  "493": {
+    "name": "Cranberry Seeds",
+    "price": 120,
+    "categoryID": -74
+  },
+  "494": {
+    "name": "Beet Seeds",
+    "price": 10,
+    "categoryID": -74
+  },
+  "495": {
+    "name": "Spring Seeds",
+    "price": 35,
+    "categoryID": -74
+  },
+  "496": {
+    "name": "Summer Seeds",
+    "price": 55,
+    "categoryID": -74
+  },
+  "497": {
+    "name": "Fall Seeds",
+    "price": 45,
+    "categoryID": -74
+  },
+  "498": {
+    "name": "Winter Seeds",
+    "price": 30,
+    "categoryID": -74
+  },
+  "499": {
+    "name": "Ancient Seeds",
+    "price": 30,
+    "categoryID": -74
+  },
+  "516": {
+    "name": "Small Glow Ring",
+    "price": 100,
+    "categoryID": 0
+  },
+  "517": {
+    "name": "Glow Ring",
+    "price": 200,
+    "categoryID": 0
+  },
+  "518": {
+    "name": "Small Magnet Ring",
+    "price": 100,
+    "categoryID": 0
+  },
+  "519": {
+    "name": "Magnet Ring",
+    "price": 200,
+    "categoryID": 0
+  },
+  "520": {
+    "name": "Slime Charmer Ring",
+    "price": 700,
+    "categoryID": 0
+  },
+  "521": {
+    "name": "Warrior Ring",
+    "price": 1500,
+    "categoryID": 0
+  },
+  "522": {
+    "name": "Vampire Ring",
+    "price": 1500,
+    "categoryID": 0
+  },
+  "523": {
+    "name": "Savage Ring",
+    "price": 1500,
+    "categoryID": 0
+  },
+  "524": {
+    "name": "Ring of Yoba",
+    "price": 1500,
+    "categoryID": 0
+  },
+  "525": {
+    "name": "Sturdy Ring",
+    "price": 1500,
+    "categoryID": 0
+  },
+  "526": {
+    "name": "Burglar's Ring",
+    "price": 1500,
+    "categoryID": 0
+  },
+  "527": {
+    "name": "Iridium Band",
+    "price": 2000,
+    "categoryID": 0
+  },
+  "528": {
+    "name": "Jukebox Ring",
+    "price": 200,
+    "categoryID": 0
+  },
+  "529": {
+    "name": "Amethyst Ring",
+    "price": 200,
+    "categoryID": 0
+  },
+  "530": {
+    "name": "Topaz Ring",
+    "price": 200,
+    "categoryID": 0
+  },
+  "531": {
+    "name": "Aquamarine Ring",
+    "price": 400,
+    "categoryID": 0
+  },
+  "532": {
+    "name": "Jade Ring",
+    "price": 400,
+    "categoryID": 0
+  },
+  "533": {
+    "name": "Emerald Ring",
+    "price": 600,
+    "categoryID": 0
+  },
+  "534": {
+    "name": "Ruby Ring",
+    "price": 600,
+    "categoryID": 0
+  },
+  "535": {
+    "name": "Geode",
+    "price": 50,
+    "categoryID": 0
+  },
+  "536": {
+    "name": "Frozen Geode",
+    "price": 100,
+    "categoryID": 0
+  },
+  "537": {
+    "name": "Magma Geode",
+    "price": 150,
+    "categoryID": 0
+  },
+  "538": {
+    "name": "Alamite",
+    "price": 150,
+    "categoryID": -12
+  },
+  "539": {
+    "name": "Bixite",
+    "price": 300,
+    "categoryID": -12
+  },
+  "540": {
+    "name": "Baryte",
+    "price": 50,
+    "categoryID": -12
+  },
+  "541": {
+    "name": "Aerinite",
+    "price": 125,
+    "categoryID": -12
+  },
+  "542": {
+    "name": "Calcite",
+    "price": 75,
+    "categoryID": -12
+  },
+  "543": {
+    "name": "Dolomite",
+    "price": 300,
+    "categoryID": -12
+  },
+  "544": {
+    "name": "Esperite",
+    "price": 100,
+    "categoryID": -12
+  },
+  "545": {
+    "name": "Fluorapatite",
+    "price": 200,
+    "categoryID": -12
+  },
+  "546": {
+    "name": "Geminite",
+    "price": 150,
+    "categoryID": -12
+  },
+  "547": {
+    "name": "Helvite",
+    "price": 450,
+    "categoryID": -12
+  },
+  "548": {
+    "name": "Jamborite",
+    "price": 150,
+    "categoryID": -12
+  },
+  "549": {
+    "name": "Jagoite",
+    "price": 115,
+    "categoryID": -12
+  },
+  "550": {
+    "name": "Kyanite",
+    "price": 250,
+    "categoryID": -12
+  },
+  "551": {
+    "name": "Lunarite",
+    "price": 200,
+    "categoryID": -12
+  },
+  "552": {
+    "name": "Malachite",
+    "price": 100,
+    "categoryID": -12
+  },
+  "553": {
+    "name": "Neptunite",
+    "price": 400,
+    "categoryID": -12
+  },
+  "554": {
+    "name": "Lemon Stone",
+    "price": 200,
+    "categoryID": -12
+  },
+  "555": {
+    "name": "Nekoite",
+    "price": 80,
+    "categoryID": -12
+  },
+  "556": {
+    "name": "Orpiment",
+    "price": 80,
+    "categoryID": -12
+  },
+  "557": {
+    "name": "Petrified Slime",
+    "price": 120,
+    "categoryID": -12
+  },
+  "558": {
+    "name": "Thunder Egg",
+    "price": 100,
+    "categoryID": -12
+  },
+  "559": {
+    "name": "Pyrite",
+    "price": 120,
+    "categoryID": -12
+  },
+  "560": {
+    "name": "Ocean Stone",
+    "price": 220,
+    "categoryID": -12
+  },
+  "561": {
+    "name": "Ghost Crystal",
+    "price": 200,
+    "categoryID": -12
+  },
+  "562": {
+    "name": "Tigerseye",
+    "price": 275,
+    "categoryID": -12
+  },
+  "563": {
+    "name": "Jasper",
+    "price": 150,
+    "categoryID": -12
+  },
+  "564": {
+    "name": "Opal",
+    "price": 150,
+    "categoryID": -12
+  },
+  "565": {
+    "name": "Fire Opal",
+    "price": 350,
+    "categoryID": -12
+  },
+  "566": {
+    "name": "Celestine",
+    "price": 125,
+    "categoryID": -12
+  },
+  "567": {
+    "name": "Marble",
+    "price": 110,
+    "categoryID": -12
+  },
+  "568": {
+    "name": "Sandstone",
+    "price": 60,
+    "categoryID": -12
+  },
+  "569": {
+    "name": "Granite",
+    "price": 75,
+    "categoryID": -12
+  },
+  "570": {
+    "name": "Basalt",
+    "price": 175,
+    "categoryID": -12
+  },
+  "571": {
+    "name": "Limestone",
+    "price": 15,
+    "categoryID": -12
+  },
+  "572": {
+    "name": "Soapstone",
+    "price": 120,
+    "categoryID": -12
+  },
+  "573": {
+    "name": "Hematite",
+    "price": 150,
+    "categoryID": -12
+  },
+  "574": {
+    "name": "Mudstone",
+    "price": 25,
+    "categoryID": -12
+  },
+  "575": {
+    "name": "Obsidian",
+    "price": 200,
+    "categoryID": -12
+  },
+  "576": {
+    "name": "Slate",
+    "price": 85,
+    "categoryID": -12
+  },
+  "577": {
+    "name": "Fairy Stone",
+    "price": 250,
+    "categoryID": -12
+  },
+  "578": {
+    "name": "Star Shards",
+    "price": 500,
+    "categoryID": -12
+  },
+  "579": {
+    "name": "Prehistoric Scapula",
+    "price": 100,
+    "categoryID": 0
+  },
+  "580": {
+    "name": "Prehistoric Tibia",
+    "price": 100,
+    "categoryID": 0
+  },
+  "581": {
+    "name": "Prehistoric Skull",
+    "price": 100,
+    "categoryID": 0
+  },
+  "582": {
+    "name": "Skeletal Hand",
+    "price": 100,
+    "categoryID": 0
+  },
+  "583": {
+    "name": "Prehistoric Rib",
+    "price": 100,
+    "categoryID": 0
+  },
+  "584": {
+    "name": "Prehistoric Vertebra",
+    "price": 100,
+    "categoryID": 0
+  },
+  "585": {
+    "name": "Skeletal Tail",
+    "price": 100,
+    "categoryID": 0
+  },
+  "586": {
+    "name": "Nautilus Fossil",
+    "price": 80,
+    "categoryID": 0
+  },
+  "587": {
+    "name": "Amphibian Fossil",
+    "price": 150,
+    "categoryID": 0
+  },
+  "588": {
+    "name": "Palm Fossil",
+    "price": 100,
+    "categoryID": 0
+  },
+  "589": {
+    "name": "Trilobite",
+    "price": 50,
+    "categoryID": 0
+  },
+  "590": {
+    "name": "Artifact Spot",
+    "price": 0,
+    "categoryID": 0
+  },
+  "591": {
+    "name": "Tulip",
+    "price": 30,
+    "categoryID": -80
+  },
+  "593": {
+    "name": "Summer Spangle",
+    "price": 90,
+    "categoryID": -80
+  },
+  "595": {
+    "name": "Fairy Rose",
+    "price": 290,
+    "categoryID": -80
+  },
+  "597": {
+    "name": "Blue Jazz",
+    "price": 50,
+    "categoryID": -80
+  },
+  "599": {
+    "name": "Sprinkler",
+    "price": 100,
+    "categoryID": -8
+  },
+  "604": {
+    "name": "Plum Pudding",
+    "price": 260,
+    "categoryID": -7
+  },
+  "605": {
+    "name": "Artichoke Dip",
+    "price": 210,
+    "categoryID": -7
+  },
+  "606": {
+    "name": "Stir Fry",
+    "price": 335,
+    "categoryID": -7
+  },
+  "607": {
+    "name": "Roasted Hazelnuts",
+    "price": 270,
+    "categoryID": -7
+  },
+  "608": {
+    "name": "Pumpkin Pie",
+    "price": 385,
+    "categoryID": -7
+  },
+  "609": {
+    "name": "Radish Salad",
+    "price": 300,
+    "categoryID": -7
+  },
+  "610": {
+    "name": "Fruit Salad",
+    "price": 450,
+    "categoryID": -7
+  },
+  "611": {
+    "name": "Blackberry Cobbler",
+    "price": 260,
+    "categoryID": -7
+  },
+  "612": {
+    "name": "Cranberry Candy",
+    "price": 175,
+    "categoryID": -7
+  },
+  "613": {
+    "name": "Apple",
+    "price": 100,
+    "categoryID": -79
+  },
+  "614": {
+    "name": "Green Tea",
+    "price": 100,
+    "categoryID": -26
+  },
+  "618": {
+    "name": "Bruschetta",
+    "price": 210,
+    "categoryID": -7
+  },
+  "621": {
+    "name": "Quality Sprinkler",
+    "price": 450,
+    "categoryID": -8
+  },
+  "628": {
+    "name": "Cherry Sapling",
+    "price": 850,
+    "categoryID": -74
+  },
+  "629": {
+    "name": "Apricot Sapling",
+    "price": 500,
+    "categoryID": -74
+  },
+  "630": {
+    "name": "Orange Sapling",
+    "price": 1000,
+    "categoryID": -74
+  },
+  "631": {
+    "name": "Peach Sapling",
+    "price": 1500,
+    "categoryID": -74
+  },
+  "632": {
+    "name": "Pomegranate Sapling",
+    "price": 1500,
+    "categoryID": -74
+  },
+  "633": {
+    "name": "Apple Sapling",
+    "price": 1000,
+    "categoryID": -74
+  },
+  "634": {
+    "name": "Apricot",
+    "price": 50,
+    "categoryID": -79
+  },
+  "635": {
+    "name": "Orange",
+    "price": 100,
+    "categoryID": -79
+  },
+  "636": {
+    "name": "Peach",
+    "price": 140,
+    "categoryID": -79
+  },
+  "637": {
+    "name": "Pomegranate",
+    "price": 140,
+    "categoryID": -79
+  },
+  "638": {
+    "name": "Cherry",
+    "price": 80,
+    "categoryID": -79
+  },
+  "645": {
+    "name": "Iridium Sprinkler",
+    "price": 1000,
+    "categoryID": -8
+  },
+  "648": {
+    "name": "Coleslaw",
+    "price": 345,
+    "categoryID": -7
+  },
+  "649": {
+    "name": "Fiddlehead Risotto",
+    "price": 350,
+    "categoryID": -7
+  },
+  "651": {
+    "name": "Poppyseed Muffin",
+    "price": 250,
+    "categoryID": -7
+  },
+  "668": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "670": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "674": {
+    "name": "Weeds",
+    "price": 0,
+    "categoryID": -999
+  },
+  "675": {
+    "name": "Weeds",
+    "price": 0,
+    "categoryID": -999
+  },
+  "676": {
+    "name": "Weeds",
+    "price": 0,
+    "categoryID": -999
+  },
+  "677": {
+    "name": "Weeds",
+    "price": 0,
+    "categoryID": -999
+  },
+  "678": {
+    "name": "Weeds",
+    "price": 0,
+    "categoryID": -999
+  },
+  "679": {
+    "name": "Weeds",
+    "price": 0,
+    "categoryID": -999
+  },
+  "680": {
+    "name": "Green Slime Egg",
+    "price": 1000,
+    "categoryID": 0
+  },
+  "681": {
+    "name": "Rain Totem",
+    "price": 20,
+    "categoryID": 0
+  },
+  "682": {
+    "name": "Mutant Carp",
+    "price": 1000,
+    "categoryID": -4
+  },
+  "684": {
+    "name": "Bug Meat",
+    "price": 8,
+    "categoryID": -28
+  },
+  "685": {
+    "name": "Bait",
+    "price": 1,
+    "categoryID": -21
+  },
+  "686": {
+    "name": "Spinner",
+    "price": 250,
+    "categoryID": -22
+  },
+  "687": {
+    "name": "Dressed Spinner",
+    "price": 500,
+    "categoryID": -22
+  },
+  "688": {
+    "name": "Warp Totem: Farm",
+    "price": 20,
+    "categoryID": 0
+  },
+  "689": {
+    "name": "Warp Totem: Mountains",
+    "price": 20,
+    "categoryID": 0
+  },
+  "690": {
+    "name": "Warp Totem: Beach",
+    "price": 20,
+    "categoryID": 0
+  },
+  "691": {
+    "name": "Barbed Hook",
+    "price": 500,
+    "categoryID": -22
+  },
+  "692": {
+    "name": "Lead Bobber",
+    "price": 150,
+    "categoryID": -22
+  },
+  "693": {
+    "name": "Treasure Hunter",
+    "price": 250,
+    "categoryID": -22
+  },
+  "694": {
+    "name": "Trap Bobber",
+    "price": 200,
+    "categoryID": -22
+  },
+  "695": {
+    "name": "Cork Bobber",
+    "price": 250,
+    "categoryID": -22
+  },
+  "698": {
+    "name": "Sturgeon",
+    "price": 200,
+    "categoryID": -4
+  },
+  "699": {
+    "name": "Tiger Trout",
+    "price": 150,
+    "categoryID": -4
+  },
+  "700": {
+    "name": "Bullhead",
+    "price": 75,
+    "categoryID": -4
+  },
+  "701": {
+    "name": "Tilapia",
+    "price": 75,
+    "categoryID": -4
+  },
+  "702": {
+    "name": "Chub",
+    "price": 50,
+    "categoryID": -4
+  },
+  "703": {
+    "name": "Magnet",
+    "price": 15,
+    "categoryID": -21
+  },
+  "704": {
+    "name": "Dorado",
+    "price": 100,
+    "categoryID": -4
+  },
+  "705": {
+    "name": "Albacore",
+    "price": 75,
+    "categoryID": -4
+  },
+  "706": {
+    "name": "Shad",
+    "price": 60,
+    "categoryID": -4
+  },
+  "707": {
+    "name": "Lingcod",
+    "price": 120,
+    "categoryID": -4
+  },
+  "708": {
+    "name": "Halibut",
+    "price": 80,
+    "categoryID": -4
+  },
+  "709": {
+    "name": "Hardwood",
+    "price": 15,
+    "categoryID": -16
+  },
+  "710": {
+    "name": "Crab Pot",
+    "price": 50,
+    "categoryID": 0
+  },
+  "715": {
+    "name": "Lobster",
+    "price": 120,
+    "categoryID": -4
+  },
+  "716": {
+    "name": "Crayfish",
+    "price": 75,
+    "categoryID": -4
+  },
+  "717": {
+    "name": "Crab",
+    "price": 100,
+    "categoryID": -4
+  },
+  "718": {
+    "name": "Cockle",
+    "price": 50,
+    "categoryID": -4
+  },
+  "719": {
+    "name": "Mussel",
+    "price": 30,
+    "categoryID": -4
+  },
+  "720": {
+    "name": "Shrimp",
+    "price": 60,
+    "categoryID": -4
+  },
+  "721": {
+    "name": "Snail",
+    "price": 65,
+    "categoryID": -4
+  },
+  "722": {
+    "name": "Periwinkle",
+    "price": 20,
+    "categoryID": -4
+  },
+  "723": {
+    "name": "Oyster",
+    "price": 40,
+    "categoryID": -4
+  },
+  "724": {
+    "name": "Maple Syrup",
+    "price": 200,
+    "categoryID": -27
+  },
+  "725": {
+    "name": "Oak Resin",
+    "price": 150,
+    "categoryID": -27
+  },
+  "726": {
+    "name": "Pine Tar",
+    "price": 100,
+    "categoryID": -27
+  },
+  "727": {
+    "name": "Chowder",
+    "price": 135,
+    "categoryID": -7
+  },
+  "728": {
+    "name": "Fish Stew",
+    "price": 175,
+    "categoryID": -7
+  },
+  "729": {
+    "name": "Escargot",
+    "price": 125,
+    "categoryID": -7
+  },
+  "730": {
+    "name": "Lobster Bisque",
+    "price": 205,
+    "categoryID": -7
+  },
+  "731": {
+    "name": "Maple Bar",
+    "price": 300,
+    "categoryID": -7
+  },
+  "732": {
+    "name": "Crab Cakes",
+    "price": 275,
+    "categoryID": -7
+  },
+  "733": {
+    "name": "Shrimp Cocktail",
+    "price": 160,
+    "categoryID": -7
+  },
+  "734": {
+    "name": "Woodskip",
+    "price": 75,
+    "categoryID": -4
+  },
+  "742": {
+    "name": "Haley's Lost Bracelet",
+    "price": 0,
+    "categoryID": 0
+  },
+  "745": {
+    "name": "Strawberry Seeds",
+    "price": 0,
+    "categoryID": -74
+  },
+  "746": {
+    "name": "Jack-O-Lantern",
+    "price": 0,
+    "categoryID": -8
+  },
+  "747": {
+    "name": "Rotten Plant",
+    "price": 0,
+    "categoryID": -20
+  },
+  "748": {
+    "name": "Rotten Plant",
+    "price": 0,
+    "categoryID": -20
+  },
+  "749": {
+    "name": "Omni Geode",
+    "price": 0,
+    "categoryID": 0
+  },
+  "750": {
+    "name": "Weeds",
+    "price": 0,
+    "categoryID": -999
+  },
+  "751": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "760": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "762": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "764": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "765": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "766": {
+    "name": "Slime",
+    "price": 5,
+    "categoryID": -28
+  },
+  "767": {
+    "name": "Bat Wing",
+    "price": 15,
+    "categoryID": -28
+  },
+  "768": {
+    "name": "Solar Essence",
+    "price": 40,
+    "categoryID": -28
+  },
+  "769": {
+    "name": "Void Essence",
+    "price": 50,
+    "categoryID": -28
+  },
+  "770": {
+    "name": "Mixed Seeds",
+    "price": 0,
+    "categoryID": -74
+  },
+  "771": {
+    "name": "Fiber",
+    "price": 1,
+    "categoryID": -16
+  },
+  "772": {
+    "name": "Oil of Garlic",
+    "price": 1000,
+    "categoryID": -7
+  },
+  "773": {
+    "name": "Life Elixir",
+    "price": 250,
+    "categoryID": -7
+  },
+  "774": {
+    "name": "Wild Bait",
+    "price": 15,
+    "categoryID": -21
+  },
+  "775": {
+    "name": "Glacierfish",
+    "price": 1000,
+    "categoryID": -4
+  },
+  "784": {
+    "name": "Weeds",
+    "price": 0,
+    "categoryID": -999
+  },
+  "785": {
+    "name": "Weeds",
+    "price": 0,
+    "categoryID": -999
+  },
+  "786": {
+    "name": "Weeds",
+    "price": 0,
+    "categoryID": -999
+  },
+  "787": {
+    "name": "Battery Pack",
+    "price": 500,
+    "categoryID": -16
+  },
+  "788": {
+    "name": "Lost Axe",
+    "price": 0,
+    "categoryID": 0
+  },
+  "789": {
+    "name": "Lucky Purple Shorts",
+    "price": 0,
+    "categoryID": 0
+  },
+  "790": {
+    "name": "Berry Basket",
+    "price": 0,
+    "categoryID": 0
+  },
+  "791": {
+    "name": "Golden Coconut",
+    "price": 0,
+    "categoryID": 0
+  },
+  "792": {
+    "name": "Weeds",
+    "price": 0,
+    "categoryID": -999
+  },
+  "793": {
+    "name": "Weeds",
+    "price": 0,
+    "categoryID": -999
+  },
+  "794": {
+    "name": "Weeds",
+    "price": 0,
+    "categoryID": -999
+  },
+  "795": {
+    "name": "Void Salmon",
+    "price": 150,
+    "categoryID": -4
+  },
+  "796": {
+    "name": "Slimejack",
+    "price": 100,
+    "categoryID": -4
+  },
+  "797": {
+    "name": "Pearl",
+    "price": 2500,
+    "categoryID": 0
+  },
+  "798": {
+    "name": "Midnight Squid",
+    "price": 100,
+    "categoryID": -4
+  },
+  "799": {
+    "name": "Spook Fish",
+    "price": 220,
+    "categoryID": -4
+  },
+  "800": {
+    "name": "Blobfish",
+    "price": 500,
+    "categoryID": -4
+  },
+  "801": {
+    "name": "Wedding Ring",
+    "price": 2000,
+    "categoryID": 0
+  },
+  "802": {
+    "name": "Cactus Seeds",
+    "price": 0,
+    "categoryID": -74
+  },
+  "803": {
+    "name": "Iridium Milk",
+    "price": 0,
+    "categoryID": 0
+  },
+  "805": {
+    "name": "Tree Fertilizer",
+    "price": 10,
+    "categoryID": -19
+  },
+  "807": {
+    "name": "Dinosaur Mayonnaise",
+    "price": 800,
+    "categoryID": -26
+  },
+  "808": {
+    "name": "Void Ghost Pendant",
+    "price": 4500,
+    "categoryID": 0
+  },
+  "809": {
+    "name": "Movie Ticket",
+    "price": 500,
+    "categoryID": 0
+  },
+  "810": {
+    "name": "Crabshell Ring",
+    "price": 2000,
+    "categoryID": 0
+  },
+  "811": {
+    "name": "Napalm Ring",
+    "price": 2000,
+    "categoryID": 0
+  },
+  "812": {
+    "name": "Roe",
+    "price": 30,
+    "categoryID": -23
+  },
+  "814": {
+    "name": "Squid Ink",
+    "price": 110,
+    "categoryID": -23
+  },
+  "815": {
+    "name": "Tea Leaves",
+    "price": 50,
+    "categoryID": -75
+  },
+  "816": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "817": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "818": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "819": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "820": {
+    "name": "Fossilized Skull",
+    "price": 100,
+    "categoryID": 0
+  },
+  "821": {
+    "name": "Fossilized Spine",
+    "price": 100,
+    "categoryID": 0
+  },
+  "822": {
+    "name": "Fossilized Tail",
+    "price": 100,
+    "categoryID": 0
+  },
+  "823": {
+    "name": "Fossilized Leg",
+    "price": 100,
+    "categoryID": 0
+  },
+  "824": {
+    "name": "Fossilized Ribs",
+    "price": 100,
+    "categoryID": 0
+  },
+  "825": {
+    "name": "Snake Skull",
+    "price": 100,
+    "categoryID": 0
+  },
+  "826": {
+    "name": "Snake Vertebrae",
+    "price": 100,
+    "categoryID": 0
+  },
+  "827": {
+    "name": "Mummified Bat",
+    "price": 100,
+    "categoryID": 0
+  },
+  "828": {
+    "name": "Mummified Frog",
+    "price": 100,
+    "categoryID": 0
+  },
+  "829": {
+    "name": "Ginger",
+    "price": 60,
+    "categoryID": -81
+  },
+  "830": {
+    "name": "Taro Root",
+    "price": 100,
+    "categoryID": -75
+  },
+  "831": {
+    "name": "Taro Tuber",
+    "price": 20,
+    "categoryID": -74
+  },
+  "832": {
+    "name": "Pineapple",
+    "price": 300,
+    "categoryID": -79
+  },
+  "833": {
+    "name": "Pineapple Seeds",
+    "price": 240,
+    "categoryID": -74
+  },
+  "834": {
+    "name": "Mango",
+    "price": 130,
+    "categoryID": -79
+  },
+  "835": {
+    "name": "Mango Sapling",
+    "price": 850,
+    "categoryID": -74
+  },
+  "836": {
+    "name": "Stingray",
+    "price": 180,
+    "categoryID": -4
+  },
+  "837": {
+    "name": "Lionfish",
+    "price": 100,
+    "categoryID": -4
+  },
+  "838": {
+    "name": "Blue Discus",
+    "price": 120,
+    "categoryID": -4
+  },
+  "839": {
+    "name": "Thorns Ring",
+    "price": 200,
+    "categoryID": 0
+  },
+  "840": {
+    "name": "Rustic Plank Floor",
+    "price": 1,
+    "categoryID": -24
+  },
+  "841": {
+    "name": "Stone Walkway Floor",
+    "price": 1,
+    "categoryID": -24
+  },
+  "842": {
+    "name": "Journal Scrap",
+    "price": 1,
+    "categoryID": 0
+  },
+  "843": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "844": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "845": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "846": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "847": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "848": {
+    "name": "Cinder Shard",
+    "price": 50,
+    "categoryID": -15
+  },
+  "849": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "850": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "851": {
+    "name": "Magma Cap",
+    "price": 400,
+    "categoryID": -81
+  },
+  "852": {
+    "name": "Dragon Tooth",
+    "price": 500,
+    "categoryID": 0
+  },
+  "856": {
+    "name": "Curiosity Lure",
+    "price": 500,
+    "categoryID": -22
+  },
+  "857": {
+    "name": "Tiger Slime Egg",
+    "price": 8000,
+    "categoryID": 0
+  },
+  "858": {
+    "name": "Qi Gem",
+    "price": 250,
+    "categoryID": 0
+  },
+  "859": {
+    "name": "Lucky Ring",
+    "price": 200,
+    "categoryID": 0
+  },
+  "860": {
+    "name": "Hot Java Ring",
+    "price": 200,
+    "categoryID": 0
+  },
+  "861": {
+    "name": "Protection Ring",
+    "price": 200,
+    "categoryID": 0
+  },
+  "862": {
+    "name": "Soul Sapper Ring",
+    "price": 200,
+    "categoryID": 0
+  },
+  "863": {
+    "name": "Phoenix Ring",
+    "price": 200,
+    "categoryID": 0
+  },
+  "864": {
+    "name": "War Memento",
+    "price": 0,
+    "categoryID": 0
+  },
+  "865": {
+    "name": "Gourmet Tomato Salt",
+    "price": 0,
+    "categoryID": 0
+  },
+  "866": {
+    "name": "Stardew Valley Rose",
+    "price": 0,
+    "categoryID": 0
+  },
+  "867": {
+    "name": "Advanced TV Remote",
+    "price": 0,
+    "categoryID": 0
+  },
+  "868": {
+    "name": "Arctic Shard",
+    "price": 0,
+    "categoryID": 0
+  },
+  "869": {
+    "name": "Wriggling Worm",
+    "price": 0,
+    "categoryID": 0
+  },
+  "870": {
+    "name": "Pirate's Locket",
+    "price": 0,
+    "categoryID": 0
+  },
+  "872": {
+    "name": "Fairy Dust",
+    "price": 300,
+    "categoryID": 0
+  },
+  "873": {
+    "name": "Piña Colada",
+    "price": 300,
+    "categoryID": -7
+  },
+  "874": {
+    "name": "Bug Steak",
+    "price": 50,
+    "categoryID": 0
+  },
+  "875": {
+    "name": "Ectoplasm",
+    "price": 0,
+    "categoryID": 0
+  },
+  "876": {
+    "name": "Prismatic Jelly",
+    "price": 0,
+    "categoryID": 0
+  },
+  "877": {
+    "name": "Quality Bobber",
+    "price": 300,
+    "categoryID": -22
+  },
+  "879": {
+    "name": "Monster Musk",
+    "price": 50,
+    "categoryID": 0
+  },
+  "880": {
+    "name": "Combined Ring",
+    "price": 100,
+    "categoryID": 0
+  },
+  "881": {
+    "name": "Bone Fragment",
+    "price": 12,
+    "categoryID": -15
+  },
+  "882": {
+    "name": "Weeds",
+    "price": 0,
+    "categoryID": -999
+  },
+  "883": {
+    "name": "Weeds",
+    "price": 0,
+    "categoryID": -999
+  },
+  "884": {
+    "name": "Weeds",
+    "price": 0,
+    "categoryID": -999
+  },
+  "885": {
+    "name": "Fiber Seeds",
+    "price": 5,
+    "categoryID": -74
+  },
+  "886": {
+    "name": "Warp Totem: Island",
+    "price": 20,
+    "categoryID": 0
+  },
+  "887": {
+    "name": "Immunity Band",
+    "price": 500,
+    "categoryID": 0
+  },
+  "888": {
+    "name": "Glowstone Ring",
+    "price": 200,
+    "categoryID": 0
+  },
+  "889": {
+    "name": "Qi Fruit",
+    "price": 1,
+    "categoryID": -79
+  },
+  "890": {
+    "name": "Qi Bean",
+    "price": 1,
+    "categoryID": -74
+  },
+  "891": {
+    "name": "Mushroom Tree Seed",
+    "price": 100,
+    "categoryID": -74
+  },
+  "892": {
+    "name": "Warp Totem: Qi's Arena",
+    "price": 20,
+    "categoryID": 0
+  },
+  "893": {
+    "name": "Fireworks (Red)",
+    "price": 50,
+    "categoryID": -8
+  },
+  "894": {
+    "name": "Fireworks (Purple)",
+    "price": 50,
+    "categoryID": -8
+  },
+  "895": {
+    "name": "Fireworks (Green)",
+    "price": 50,
+    "categoryID": -8
+  },
+  "896": {
+    "name": "Galaxy Soul",
+    "price": 5000,
+    "categoryID": 0
+  },
+  "897": {
+    "name": "Pierre's Missing Stocklist",
+    "price": 0,
+    "categoryID": 0
+  },
+  "898": {
+    "name": "Son of Crimsonfish",
+    "price": 1500,
+    "categoryID": -4
+  },
+  "899": {
+    "name": "Ms. Angler",
+    "price": 900,
+    "categoryID": -4
+  },
+  "900": {
+    "name": "Legend II",
+    "price": 5000,
+    "categoryID": -4
+  },
+  "901": {
+    "name": "Radioactive Carp",
+    "price": 1000,
+    "categoryID": -4
+  },
+  "902": {
+    "name": "Glacierfish Jr.",
+    "price": 1000,
+    "categoryID": -4
+  },
+  "903": {
+    "name": "Ginger Ale",
+    "price": 200,
+    "categoryID": -7
+  },
+  "904": {
+    "name": "Banana Pudding",
+    "price": 260,
+    "categoryID": -7
+  },
+  "905": {
+    "name": "Mango Sticky Rice",
+    "price": 250,
+    "categoryID": -7
+  },
+  "906": {
+    "name": "Poi",
+    "price": 400,
+    "categoryID": -7
+  },
+  "907": {
+    "name": "Tropical Curry",
+    "price": 500,
+    "categoryID": -7
+  },
+  "908": {
+    "name": "Magic Bait",
+    "price": 1,
+    "categoryID": -21
+  },
+  "909": {
+    "name": "Radioactive Ore",
+    "price": 300,
+    "categoryID": -15
+  },
+  "910": {
+    "name": "Radioactive Bar",
+    "price": 3000,
+    "categoryID": -15
+  },
+  "911": {
+    "name": "Horse Flute",
+    "price": 3000,
+    "categoryID": 0
+  },
+  "913": {
+    "name": "Enricher",
+    "price": 200,
+    "categoryID": 0
+  },
+  "915": {
+    "name": "Pressure Nozzle",
+    "price": 200,
+    "categoryID": 0
+  },
+  "917": {
+    "name": "Qi Seasoning",
+    "price": 200,
+    "categoryID": 0
+  },
+  "918": {
+    "name": "Hyper Speed-Gro",
+    "price": 70,
+    "categoryID": -19
+  },
+  "919": {
+    "name": "Deluxe Fertilizer",
+    "price": 70,
+    "categoryID": -19
+  },
+  "920": {
+    "name": "Deluxe Retaining Soil",
+    "price": 30,
+    "categoryID": -19
+  },
+  "921": {
+    "name": "Squid Ink Ravioli",
+    "price": 150,
+    "categoryID": -7
+  },
+  "922": {
+    "name": "SupplyCrate",
+    "price": 1,
+    "categoryID": 0
+  },
+  "923": {
+    "name": "SupplyCrate",
+    "price": 1,
+    "categoryID": 0
+  },
+  "924": {
+    "name": "SupplyCrate",
+    "price": 1,
+    "categoryID": 0
+  },
+  "925": {
+    "name": "Slime Crate",
+    "price": 3000,
+    "categoryID": 0
+  },
+  "926": {
+    "name": "Cookout Kit",
+    "price": 80,
+    "categoryID": 0
+  },
+  "927": {
+    "name": "Camping Stove",
+    "price": 1,
+    "categoryID": 0
+  },
+  "928": {
+    "name": "Golden Egg",
+    "price": 500,
+    "categoryID": -5
+  },
+  "929": {
+    "name": "Hedge",
+    "price": 10,
+    "categoryID": -8
+  },
+  "930": {
+    "name": "???",
+    "price": 0,
+    "categoryID": 0
+  },
+  "FarAwayStone": {
+    "name": "Far Away Stone",
+    "price": 500,
+    "categoryID": 0
+  },
+  "CalicoEgg": {
+    "name": "Calico Egg",
+    "price": 0,
+    "categoryID": 0
+  },
+  "MixedFlowerSeeds": {
+    "name": "Mixed Flower Seeds",
+    "price": 0,
+    "categoryID": -74
+  },
+  "GoldenBobber": {
+    "name": "Golden Bobber",
+    "price": 0,
+    "categoryID": 0
+  },
+  "CalicoEggStone_0": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "CalicoEggStone_1": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "CalicoEggStone_2": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "MysteryBox": {
+    "name": "Mystery Box",
+    "price": 0,
+    "categoryID": 0
+  },
+  "TroutDerbyTag": {
+    "name": "Golden Tag",
+    "price": 0,
+    "categoryID": 0
+  },
+  "DeluxeBait": {
+    "name": "Deluxe Bait",
+    "price": 1,
+    "categoryID": -21
+  },
+  "Moss": {
+    "name": "Moss",
+    "price": 5,
+    "categoryID": -16
+  },
+  "MossySeed": {
+    "name": "Mossy Seed",
+    "price": 100,
+    "categoryID": -74
+  },
+  "GreenRainWeeds0": {
+    "name": "GreenRainWeeds0",
+    "price": 0,
+    "categoryID": -999
+  },
+  "GreenRainWeeds1": {
+    "name": "GreenRainWeeds1",
+    "price": 0,
+    "categoryID": -999
+  },
+  "GreenRainWeeds2": {
+    "name": "GreenRainWeeds2",
+    "price": 0,
+    "categoryID": -999
+  },
+  "GreenRainWeeds3": {
+    "name": "GreenRainWeeds3",
+    "price": 0,
+    "categoryID": -999
+  },
+  "GreenRainWeeds4": {
+    "name": "GreenRainWeeds4",
+    "price": 0,
+    "categoryID": -999
+  },
+  "GreenRainWeeds5": {
+    "name": "GreenRainWeeds5",
+    "price": 0,
+    "categoryID": -999
+  },
+  "GreenRainWeeds6": {
+    "name": "GreenRainWeeds6",
+    "price": 0,
+    "categoryID": -999
+  },
+  "GreenRainWeeds7": {
+    "name": "GreenRainWeeds7",
+    "price": 0,
+    "categoryID": -999
+  },
+  "SonarBobber": {
+    "name": "Sonar Bobber",
+    "price": 250,
+    "categoryID": -22
+  },
+  "SpecificBait": {
+    "name": "Bait",
+    "price": 5,
+    "categoryID": -21
+  },
+  "TentKit": {
+    "name": "Tent Kit",
+    "price": 200,
+    "categoryID": 0
+  },
+  "VolcanoGoldNode": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "MysticTreeSeed": {
+    "name": "Mystic Tree Seed",
+    "price": 100,
+    "categoryID": -74
+  },
+  "MysticSyrup": {
+    "name": "Mystic Syrup",
+    "price": 1000,
+    "categoryID": -27
+  },
+  "Raisins": {
+    "name": "Raisins",
+    "price": 600,
+    "categoryID": -26
+  },
+  "DriedFruit": {
+    "name": "Dried",
+    "price": 25,
+    "categoryID": -26
+  },
+  "DriedMushrooms": {
+    "name": "Dried",
+    "price": 25,
+    "categoryID": -26
+  },
+  "StardropTea": {
+    "name": "Stardrop Tea",
+    "price": 77,
+    "categoryID": 0
+  },
+  "PrizeTicket": {
+    "name": "Prize Ticket",
+    "price": 1,
+    "categoryID": 0
+  },
+  "GoldCoin": {
+    "name": "Gold Coin",
+    "price": 1,
+    "categoryID": 0
+  },
+  "TreasureTotem": {
+    "name": "Treasure Totem",
+    "price": 20,
+    "categoryID": 0
+  },
+  "ChallengeBait": {
+    "name": "Challenge Bait",
+    "price": 1,
+    "categoryID": -21
+  },
+  "CarrotSeeds": {
+    "name": "Carrot Seeds",
+    "price": 15,
+    "categoryID": -74
+  },
+  "Carrot": {
+    "name": "Carrot",
+    "price": 35,
+    "categoryID": -75
+  },
+  "SummerSquashSeeds": {
+    "name": "Summer Squash Seeds",
+    "price": 20,
+    "categoryID": -74
+  },
+  "SummerSquash": {
+    "name": "Summer Squash",
+    "price": 45,
+    "categoryID": -75
+  },
+  "BroccoliSeeds": {
+    "name": "Broccoli Seeds",
+    "price": 40,
+    "categoryID": -74
+  },
+  "Broccoli": {
+    "name": "Broccoli",
+    "price": 70,
+    "categoryID": -75
+  },
+  "PowdermelonSeeds": {
+    "name": "Powdermelon Seeds",
+    "price": 20,
+    "categoryID": -74
+  },
+  "Powdermelon": {
+    "name": "Powdermelon",
+    "price": 60,
+    "categoryID": -79
+  },
+  "SeedSpot": {
+    "name": "Seed Spot",
+    "price": 0,
+    "categoryID": 0
+  },
+  "SmokedFish": {
+    "name": "Smoked",
+    "price": 25,
+    "categoryID": -26
+  },
+  "PurpleBook": {
+    "name": "Book Of Stars",
+    "price": 2500,
+    "categoryID": -103
+  },
+  "SkillBook_0": {
+    "name": "Stardew Valley Almanac",
+    "price": 500,
+    "categoryID": -103
+  },
+  "SkillBook_2": {
+    "name": "Woodcutter's Weekly",
+    "price": 500,
+    "categoryID": -103
+  },
+  "SkillBook_1": {
+    "name": "Bait And Bobber",
+    "price": 500,
+    "categoryID": -103
+  },
+  "SkillBook_3": {
+    "name": "Mining Monthly",
+    "price": 500,
+    "categoryID": -103
+  },
+  "SkillBook_4": {
+    "name": "Combat Quarterly",
+    "price": 500,
+    "categoryID": -103
+  },
+  "Book_Trash": {
+    "name": "The Alleyway Buffet",
+    "price": 3000,
+    "categoryID": -102
+  },
+  "Book_Crabbing": {
+    "name": "The Art O' Crabbing",
+    "price": 1000,
+    "categoryID": -102
+  },
+  "Book_Bombs": {
+    "name": "Dwarvish Safety Manual",
+    "price": 1000,
+    "categoryID": -102
+  },
+  "Book_Roe": {
+    "name": "Jewels Of The Sea",
+    "price": 800,
+    "categoryID": -102
+  },
+  "Book_WildSeeds": {
+    "name": "Ways Of The Wild",
+    "price": 1000,
+    "categoryID": -102
+  },
+  "Book_Woodcutting": {
+    "name": "Woody's Secret",
+    "price": 500,
+    "categoryID": -102
+  },
+  "Book_Defense": {
+    "name": "Jack Be Nimble, Jack Be Thick",
+    "price": 500,
+    "categoryID": -102
+  },
+  "Book_Friendship": {
+    "name": "Friendship 101",
+    "price": 3000,
+    "categoryID": -102
+  },
+  "Book_Void": {
+    "name": "Monster Compendium",
+    "price": 2000,
+    "categoryID": -102
+  },
+  "Book_Speed": {
+    "name": "Way Of The Wind pt. 1",
+    "price": 5000,
+    "categoryID": -102
+  },
+  "Book_Marlon": {
+    "name": "Mapping Cave Systems",
+    "price": 4000,
+    "categoryID": -102
+  },
+  "Book_PriceCatalogue": {
+    "name": "Price Catalogue",
+    "price": 1000,
+    "categoryID": -102
+  },
+  "Book_QueenOfSauce": {
+    "name": "Queen Of Sauce Cookbook",
+    "price": 10000,
+    "categoryID": -102
+  },
+  "Book_Diamonds": {
+    "name": "The Diamond Hunter",
+    "price": 1000,
+    "categoryID": -102
+  },
+  "Book_Mystery": {
+    "name": "Book of Mysteries",
+    "price": 3000,
+    "categoryID": -102
+  },
+  "Book_AnimalCatalogue": {
+    "name": "Animal Catalogue",
+    "price": 2000,
+    "categoryID": -102
+  },
+  "Book_Speed2": {
+    "name": "Way Of The Wind pt. 2",
+    "price": 10000,
+    "categoryID": -102
+  },
+  "GoldenAnimalCracker": {
+    "name": "Golden Animal Cracker",
+    "price": 1000,
+    "categoryID": 0
+  },
+  "GoldenMysteryBox": {
+    "name": "Golden Mystery Box",
+    "price": 0,
+    "categoryID": 0
+  },
+  "SeaJelly": {
+    "name": "Sea Jelly",
+    "price": 200,
+    "categoryID": 0
+  },
+  "CaveJelly": {
+    "name": "Cave Jelly",
+    "price": 180,
+    "categoryID": 0
+  },
+  "RiverJelly": {
+    "name": "River Jelly",
+    "price": 125,
+    "categoryID": 0
+  },
+  "Goby": {
+    "name": "Goby",
+    "price": 150,
+    "categoryID": -4
+  },
+  "VolcanoCoalNode0": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "VolcanoCoalNode1": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "PotOfGold": {
+    "name": "PotOfGold",
+    "price": 0,
+    "categoryID": -999
+  },
+  "Book_Artifact": {
+    "name": "Book_Artifact",
+    "price": 500,
+    "categoryID": -102
+  },
+  "Book_Horse": {
+    "name": "Book_Horse",
+    "price": 1000,
+    "categoryID": -102
+  },
+  "ButterflyPowder": {
+    "name": "Butterfly Powder",
+    "price": 0,
+    "categoryID": 0
+  },
+  "PetLicense": {
+    "name": "Pet License",
+    "price": 0,
+    "categoryID": 0
+  },
+  "BlueGrassStarter": {
+    "name": "Blue Grass Starter",
+    "price": 50,
+    "categoryID": 0
+  },
+  "MossSoup": {
+    "name": "Moss Soup",
+    "price": 80,
+    "categoryID": -7
+  },
+  "Book_Grass": {
+    "name": "Book_Grass",
+    "price": 1000,
+    "categoryID": -102
+  },
+  "BasicCoalNode0": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  },
+  "BasicCoalNode1": {
+    "name": "Stone",
+    "price": 0,
+    "categoryID": -999
+  }
+}
