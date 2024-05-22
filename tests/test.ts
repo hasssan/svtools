@@ -10,4 +10,6 @@ test('upload save file successfully', async ({ page }) => {
 	const input = await page.$('input[type=file]');
 	await input?.setInputFiles('./fixtures/Cargo');
 	await expect(page.getByTestId('player-name')).toHaveText('Name: Camto');
+	await expect(page.getByTestId('player-farmName')).toHaveText('Farm Name: Cargo');
+	await expect(page.getByTestId('player-professions')).toHaveText('Professions: Tiller, Artisan');
 });
