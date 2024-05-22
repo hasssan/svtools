@@ -44,11 +44,15 @@
 	<div class="text-darkBrown" data-testid="player-name">
 		Name: {player?.name ?? ''}
 	</div>
-	<div class="text-darkBrown">
+	<div class="text-darkBrown" data-testid="player-farmName">
 		Farm Name: {player?.farmName ?? ''}
 	</div>
-	<div class="text-darkBrown">
+	<div class="text-darkBrown" data-testid="player-money">
 		Money: {player?.money ?? ''}
+	</div>
+
+	<div class="text-darkBrown" data-testid="player-professions">
+		Professions: {player?.professionsList?.join(', ') ?? ''}
 	</div>
 </Container>
 
