@@ -134,20 +134,26 @@
 						scope="col"
 						class="px-6 py-3 text-left text-xs font-medium text-darkBrown uppercase tracking-wider"
 					>
+						Quality
+					</th>
+					<th
+						scope="col"
+						class="px-6 py-3 text-left text-xs font-medium text-darkBrown uppercase tracking-wider"
+					>
 						Count
 					</th>
 					<th
 						scope="col"
 						class="px-6 py-3 text-left text-xs font-medium text-darkBrown uppercase tracking-wider"
 					>
-						Quality
+						Price
 					</th>
-					<!-- <th
-								scope="col"
-								class="px-6 py-3 text-left text-xs font-medium text-gray-500  uppercase tracking-wider"
-							>
-								Type
-							</th> -->
+					<th
+						scope="col"
+						class="px-6 py-3 text-left text-xs font-medium text-darkBrown uppercase tracking-wider"
+					>
+						Total Price
+					</th>
 				</tr>
 			</thead>
 			<tbody class="bg-carla divide-y divide-goldCrayola">
@@ -156,10 +162,10 @@
 						<td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-darkBrown">
 							{item.name}
 						</td>
-						<td class="px-6 py-4 whitespace-nowrap text-sm text-darkBrown">{item.stack}</td>
 						<td class="px-6 py-4 whitespace-nowrap text-sm text-darkBrown">{item.qualityName}</td>
-						<!-- <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500 "
-								></td> -->
+						<td class="px-6 py-4 whitespace-nowrap text-sm text-darkBrown">{item.stack}</td>
+						<td class="px-6 py-4 whitespace-nowrap text-sm text-darkBrown">{item.sellPrice}</td>
+						<td class="px-6 py-4 whitespace-nowrap text-sm text-darkBrown">{item.totalPrice}</td>
 					</tr>
 				{/each}
 			</tbody>
