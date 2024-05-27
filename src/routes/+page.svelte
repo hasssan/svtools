@@ -9,6 +9,7 @@
 	let player: Player;
 
 	let files: FileList;
+	let inputEl: HTMLInputElement;
 
 	const qualityFilter = Object.values(qualityNames);
 
@@ -24,6 +25,8 @@
 
 			items = saveGame.items;
 			player = saveGame.player;
+
+			inputEl.value = '';
 		};
 		reader.readAsText(file);
 	}
@@ -64,6 +67,7 @@
 				<input
 					id="file-upload"
 					bind:files
+					bind:this={inputEl}
 					required
 					type="file"
 					accept=""
