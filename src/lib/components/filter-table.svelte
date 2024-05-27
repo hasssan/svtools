@@ -14,7 +14,7 @@
 
 	const handleText = debounce((e: any) => {
 		// Allow only alphanumeric characters and Enter key
-		if (e.key.match(/^[a-zA-Z0-9]$/) || e.key === 'Enter') {
+		if (e.key.match(/^[a-zA-Z0-9]$/) || e.key === 'Enter' || e.target?.value === '') {
 			column.setFilterValue(e.target?.value);
 		}
 	}, 300);
