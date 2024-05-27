@@ -12,7 +12,6 @@
 		getPaginationRowModel,
 		type OnChangeFn
 	} from '@tanstack/svelte-table';
-	import { rankItem } from '@tanstack/match-sorter-utils';
 
 	import { parseSaveGame, type Player, type Item } from '$lib/saveGame.js';
 	import { qualityNames } from '$lib/items.js';
@@ -47,20 +46,12 @@
 		reader.readAsText(file);
 	}
 
-	const fuzzyFilter: FilterFn<any> = (row, columnId, value, addMeta) => {
-		// Rank the item
-		const itemRank = rankItem(row.getValue(columnId), value);
-
-		console.log('itemRank', itemRank);
-		// Store the itemRank info
-		addMeta({ itemRank });
-
-		// Return if the item should be filtered in/out
-		return itemRank.passed;
-	};
-
 	const defaultColumns: ColumnDef<Item>[] = [
-		{ accessorKey: 'name', header: 'Name', meta: { filterVariant: 'text' } },
+		{
+			accessorKey: 'name',
+			header: 'Name',
+			meta: { filterVariant: 'text' }
+		},
 		{
 			accessorKey: 'qualityName',
 			header: 'Quality',
@@ -86,7 +77,6 @@
 	let columnFilters: ColumnFiltersState = [];
 
 	const setColumnFilter: OnChangeFn<ColumnFiltersState> = (updater) => {
-		console.log('setColumnFilter', updater);
 		if (updater instanceof Function) {
 			columnFilters = updater(columnFilters);
 		} else {
@@ -104,9 +94,6 @@
 	const tableOptions = writable<TableOptions<Item>>({
 		columns: defaultColumns,
 		data: items,
-		filterFns: {
-			fuzzy: fuzzyFilter
-		},
 		state: {
 			columnFilters
 		},
