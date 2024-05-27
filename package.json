@@ -41,6 +41,9 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@tanstack/match-sorter-utils": "^8.15.1",
+		"@tanstack/svelte-table": "^8.17.3",
+		"debounce": "^2.1.0",
 		"fast-xml-parser": "^4.3.6"
 	}
 }
