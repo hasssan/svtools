@@ -1,16 +1,20 @@
 <script lang="ts">
 	import { writable } from 'svelte/store';
 	import {
-		type TableOptions,
-		type ColumnDef,
-		type FilterFn,
-		type ColumnFiltersState,
 		createSvelteTable,
 		flexRender,
 		getCoreRowModel,
 		getFilteredRowModel,
 		getPaginationRowModel,
-		type OnChangeFn
+		getSortedRowModel
+	} from '@tanstack/svelte-table';
+	import type {
+		TableOptions,
+		ColumnDef,
+		ColumnFiltersState,
+		SortingState,
+		OnChangeFn,
+		SortingFn
 	} from '@tanstack/svelte-table';
 
 	import { parseSaveGame, type Player, type Item } from '$lib/saveGame.js';
@@ -46,6 +50,10 @@
 		reader.readAsText(file);
 	}
 
+	const sortQualityFn: SortingFn<Item> = (rowA, rowB, _columnId) => {
+		return rowA.original.quality - rowB.original.quality;
+	};
+
 	const defaultColumns: ColumnDef<Item>[] = [
 		{
 			accessorKey: 'name',
@@ -55,6 +63,7 @@
 		{
 			accessorKey: 'qualityName',
 			header: 'Quality',
+			sortingFn: sortQualityFn,
 			meta: { filterVariant: 'select', filterOptions: qualityFilter }
 		},
 		{
@@ -91,6 +100,23 @@
 		}));
 	};
 
+	let sorting: SortingState = [];
+
+	const setSorting: OnChangeFn<SortingState> = (updater) => {
+		if (updater instanceof Function) {
+			sorting = updater(sorting);
+		} else {
+			sorting = updater;
+		}
+		tableOptions.update((old) => ({
+			...old,
+			state: {
+				...old.state,
+				sorting
+			}
+		}));
+	};
+
 	const tableOptions = writable<TableOptions<Item>>({
 		columns: defaultColumns,
 		data: items,
@@ -98,9 +124,11 @@
 			columnFilters
 		},
 		onColumnFiltersChange: setColumnFilter,
+		onSortingChange: setSorting,
 		getPaginationRowModel: getPaginationRowModel(),
 		getCoreRowModel: getCoreRowModel(),
-		getFilteredRowModel: getFilteredRowModel()
+		getFilteredRowModel: getFilteredRowModel(),
+		getSortedRowModel: getSortedRowModel()
 	});
 
 	const refreshData = () => {
@@ -167,10 +195,53 @@
 								class="content-start pl-2 py-3 text-left text-xs font-medium text-darkBrown uppercase tracking-wider"
 							>
 								<div class="flex flex-col">
-									<div>
+									<div class="flex">
 										<svelte:component
 											this={flexRender(header.column.columnDef.header, header.getContext())}
 										/>
+										<button
+											class:cursor-pointer={header.column.getCanSort()}
+											class:select-none={header.column.getCanSort()}
+											on:click={header.column.getToggleSortingHandler()}
+										>
+											{#if header.column.getIsSorted().toString() === 'asc'}
+												<svg
+													class="w-3 h-4 ms-1.5"
+													fill="#000000"
+													viewBox="0 0 24 24"
+													version="1.2"
+													baseProfile="tiny"
+													xmlns="http://www.w3.org/2000/svg"
+													><path
+														d="M18.2 13.3l-6.2-6.3-6.2 6.3c-.2.2-.3.5-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7z"
+													/></svg
+												>
+											{:else if header.column.getIsSorted().toString() === 'desc'}
+												<svg
+													class="w-3 h-3 ms-1.5"
+													fill="#000000"
+													viewBox="0 0 24 24"
+													version="1.2"
+													baseProfile="tiny"
+													xmlns="http://www.w3.org/2000/svg"
+													><path
+														d="M5.8 9.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.4-.3.7s.1.5.3.7z"
+													/></svg
+												>
+											{:else}
+												<svg
+													class="w-3 h-3 ms-1.5"
+													fill="#000000"
+													viewBox="0 0 24 24"
+													version="1.2"
+													baseProfile="tiny"
+													xmlns="http://www.w3.org/2000/svg"
+													><path
+														d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z"
+													/></svg
+												>
+											{/if}
+										</button>
 									</div>
 									{#if header.column.getCanFilter()}
 										<div class="mt-2">
