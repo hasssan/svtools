@@ -14,6 +14,7 @@
 		ColumnFiltersState,
 		SortingState,
 		OnChangeFn,
+		PaginationState,
 		SortingFn
 	} from '@tanstack/svelte-table';
 
@@ -117,17 +118,39 @@
 		}));
 	};
 
+	let pagination: PaginationState = {
+		pageIndex: 0,
+		pageSize: 10
+	};
+
+	const setPagination: OnChangeFn<PaginationState> = (updater) => {
+		if (updater instanceof Function) {
+			pagination = updater(pagination);
+		} else {
+			pagination = updater;
+		}
+		tableOptions.update((old) => ({
+			...old,
+			state: {
+				...old.state,
+				pagination
+			}
+		}));
+	};
+
 	const tableOptions = writable<TableOptions<Item>>({
 		columns: defaultColumns,
 		data: items,
 		state: {
-			columnFilters
+			columnFilters,
+			sorting
 		},
 		onColumnFiltersChange: setColumnFilter,
+		onPaginationChange: setPagination,
 		onSortingChange: setSorting,
-		getPaginationRowModel: getPaginationRowModel(),
 		getCoreRowModel: getCoreRowModel(),
 		getFilteredRowModel: getFilteredRowModel(),
+		getPaginationRowModel: getPaginationRowModel(),
 		getSortedRowModel: getSortedRowModel()
 	});
 
@@ -268,5 +291,57 @@
 				{/each}
 			</tbody>
 		</table>
+		<nav
+			class="flex items-center flex-column flex-wrap md:flex-row justify-between pt-4"
+			aria-label="Table navigation"
+		>
+			<span
+				class="text-sm font-normal text-gray-500 dark:text-gray-400 mb-4 md:mb-0 block w-full md:inline md:w-auto"
+				>Showing <span class="font-semibold text-gray-900 dark:text-white"
+					>{$table.getPageCount() > 0 ? $table.getState().pagination.pageIndex + 1 : 0}</span
+				>
+				of
+				<span class="font-semibold text-gray-900 dark:text-white">{$table.getPageCount()}</span
+				></span
+			>
+			<div class="inline-flex -space-x-px rtl:space-x-reverse text-sm h-8">
+				<button
+					class="flex items-center justify-center px-3 h-8 ms-0 leading-tight text-darkBrown bg-carla border border-goldCrayola rounded-s-lg"
+					class:hover:bg-goldCrayola={$table.getCanPreviousPage()}
+					class:hover:text-darkBrown={$table.getCanPreviousPage()}
+					on:click={() => $table.firstPage()}
+					disabled={!$table.getCanPreviousPage()}
+				>
+					{'<<'}
+				</button>
+				<button
+					class="flex items-center justify-center px-3 h-8 leading-tight text-darkBrown bg-carla border border-goldCrayola"
+					class:hover:bg-goldCrayola={$table.getCanPreviousPage()}
+					class:hover:text-darkBrown={$table.getCanPreviousPage()}
+					on:click={() => $table.previousPage()}
+					disabled={!$table.getCanPreviousPage()}
+				>
+					{'<'}
+				</button>
+				<button
+					class="flex items-center justify-center px-3 h-8 leading-tight text-darkBrown bg-carla border border-goldCrayola"
+					class:hover:bg-goldCrayola={$table.getCanNextPage()}
+					class:hover:text-darkBrown={$table.getCanNextPage()}
+					on:click={() => $table.nextPage()}
+					disabled={!$table.getCanNextPage()}
+				>
+					{'>'}
+				</button>
+				<button
+					class="flex items-center justify-center px-3 h-8 leading-tight text-darkBrown bg-carla border border-goldCrayola rounded-e-lg"
+					class:hover:bg-goldCrayola={$table.getCanNextPage()}
+					class:hover:text-darkBrown={$table.getCanNextPage()}
+					on:click={() => $table.lastPage()}
+					disabled={!$table.getCanNextPage()}
+				>
+					{'>>'}
+				</button>
+			</div>
+		</nav>
 	</div>
 </Container>
