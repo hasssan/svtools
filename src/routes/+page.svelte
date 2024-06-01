@@ -25,6 +25,7 @@
 
 	let items: Item[] = [];
 	let player: Player;
+	let gameVersion: string;
 
 	let files: FileList;
 	let inputEl: HTMLInputElement;
@@ -43,6 +44,7 @@
 
 			items = saveGame.items;
 			player = saveGame.player;
+			gameVersion = saveGame.gameVersion;
 
 			inputEl.value = '';
 
@@ -177,6 +179,9 @@
 
 	<div class="text-darkBrown" data-testid="player-professions">
 		Professions: {player?.professionsList?.join(', ') ?? ''}
+	</div>
+	<div class="text-darkBrown" data-testid="player-professions">
+		Game Version: {gameVersion ?? ''}
 	</div>
 </Container>
 

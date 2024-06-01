@@ -7,6 +7,7 @@ export { type Player, type Item };
 export interface SaveGame {
 	player: Player;
 	items: Array<Item>;
+	gameVersion: string;
 }
 
 export function parseSaveGame(data: string): SaveGame {
@@ -24,9 +25,12 @@ export function parseSaveGame(data: string): SaveGame {
 
 		const saveGame = result.SaveGame as Record<string, unknown>;
 
+		console.log(saveGame.gameVersion);
+
 		return {
 			player: getPlayer(saveGame),
-			items: findAll(saveGame)
+			items: findAll(saveGame),
+			gameVersion: saveGame?.gameVersion as string
 		};
 	} catch (error) {
 		console.error(error);
