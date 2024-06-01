@@ -54,14 +54,15 @@ export function getPlayer(saveGame: Record<string, unknown>): Player {
 					multiplier: professionMultipliers[1]
 				};
 				player.professionsList.push(professions[1]);
-			}
-			if (professionId === 4) {
+			} else if (professionId === 4) {
 				player.professions.artisan = {
 					id: 4,
 					name: professions[4],
 					multiplier: professionMultipliers[4]
 				};
 				player.professionsList.push(professions[4]);
+			} else {
+				player.professionsList.push(professions[professionId as keyof typeof professions]);
 			}
 		}
 	}
