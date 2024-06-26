@@ -10,7 +10,16 @@ baseTest('should parse save data', async ({ expect, saveData }) => {
 			tiller: { id: 1, name: 'Tiller', multiplier: 1.1 },
 			artisan: { id: 4, name: 'Artisan', multiplier: 1.4 }
 		},
-		professionsList: ['Tiller', 'Artisan']
+		professionsList: [
+			'Tiller',
+			'Gatherer',
+			'Fisher',
+			'Miner',
+			'Fighter',
+			'Artisan',
+			'Pirate',
+			'Botanist'
+		]
 	};
 	const playerData = getPlayer(saveData.SaveGame);
 	expect(playerData).toEqual(result);
