@@ -18,14 +18,17 @@
 		SortingFn
 	} from '@tanstack/svelte-table';
 
-	import { parseSaveGame, type Player, type Item } from '$lib/saveGame.js';
+	import { parseSaveGame } from '$lib/saveGame.js';
+	import type { Player, Item, CurrentDate } from '$lib/saveGame.js';
 	import { qualityNames } from '$lib/items.js';
 	import Container from '$lib/container.svelte';
 	import FilterTable from '$lib/components/filter-table.svelte';
+	import { moneyFormat } from '$lib/utils.js';
 
 	let items: Item[] = [];
 	let player: Player;
 	let gameVersion: string;
+	let currentDate: CurrentDate;
 
 	let files: FileList;
 	let inputEl: HTMLInputElement;
@@ -45,6 +48,7 @@
 			items = saveGame.items;
 			player = saveGame.player;
 			gameVersion = saveGame.gameVersion;
+			currentDate = saveGame.currentDate;
 
 			inputEl.value = '';
 
@@ -174,13 +178,17 @@
 		Farm Name: {player?.farmName ?? ''}
 	</div>
 	<div class="text-darkBrown" data-testid="player-money">
-		Money: {player?.money ?? ''}
+		Money: {moneyFormat(player?.money ?? '')}
+	</div>
+	<div class="text-darkBrown" data-testid="current-date">
+		Date:
+		{currentDate?.toString() ?? ''}
 	</div>
 
 	<div class="text-darkBrown" data-testid="player-professions">
 		Professions: {player?.professionsList?.join(', ') ?? ''}
 	</div>
-	<div class="text-darkBrown" data-testid="player-professions">
+	<div class="text-darkBrown" data-testid="game-version">
 		Game Version: {gameVersion ?? ''}
 	</div>
 </Container>

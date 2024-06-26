@@ -6,10 +6,11 @@ export { type Player, type Item };
 
 export type Season = 'Fall' | 'Winter' | 'Summer' | 'Spring' | undefined;
 
-interface CurrentDate {
+export interface CurrentDate {
 	day?: number;
 	season?: Season;
 	year?: number;
+	toString(): string;
 }
 
 export interface SaveGame {
@@ -33,18 +34,25 @@ export function parseSaveGame(data: string): SaveGame {
 		}
 
 		const saveGame = result.SaveGame as Record<string, unknown>;
+		const currentDate = {
+			day: typeof saveGame?.dayOfMonth === 'number' ? saveGame?.dayOfMonth : undefined,
+			season:
+				typeof saveGame?.currentSeason === 'string'
+					? parseSeason(saveGame?.currentSeason)
+					: undefined,
+			year: typeof saveGame?.year === 'number' ? saveGame?.year : undefined,
+			toString() {
+				if (!this.day || !this.season || !this.year) {
+					return '';
+				}
+				return `${this.season} ${this.day}, Year ${this.year}`;
+			}
+		};
 
 		return {
 			player: getPlayer(saveGame),
 			items: findAll(saveGame),
-			currentDate: {
-				day: typeof saveGame?.dayOfMonth === 'number' ? saveGame?.dayOfMonth : undefined,
-				season:
-					typeof saveGame?.currentSeason === 'string'
-						? parseSeason(saveGame?.currentSeason)
-						: undefined,
-				year: typeof saveGame?.year === 'number' ? saveGame?.year : undefined
-			},
+			currentDate: currentDate,
 			gameVersion: saveGame?.gameVersion as string
 		};
 	} catch (error) {
