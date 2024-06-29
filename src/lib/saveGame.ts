@@ -20,6 +20,26 @@ export interface SaveGame {
 	currentDate: CurrentDate;
 }
 
+export function parseCurrentDate(saveGame: Record<string, unknown>): CurrentDate {
+	const name = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+	const currentDate = {
+		day: typeof saveGame?.dayOfMonth === 'number' ? saveGame?.dayOfMonth : undefined,
+		season:
+			typeof saveGame?.currentSeason === 'string'
+				? parseSeason(saveGame?.currentSeason)
+				: undefined,
+		year: typeof saveGame?.year === 'number' ? saveGame?.year : undefined,
+		toString() {
+			if (!this.day || !this.season || !this.year) {
+				return '';
+			}
+			return `${name[(this.day - 1) % 7]}, ${this.season} ${this.day}, Year ${this.year}`;
+		}
+	};
+
+	return currentDate;
+}
+
 export function parseSaveGame(data: string): SaveGame {
 	if (!data) {
 		throw new Error('No save data provided');
@@ -34,20 +54,7 @@ export function parseSaveGame(data: string): SaveGame {
 		}
 
 		const saveGame = result.SaveGame as Record<string, unknown>;
-		const currentDate = {
-			day: typeof saveGame?.dayOfMonth === 'number' ? saveGame?.dayOfMonth : undefined,
-			season:
-				typeof saveGame?.currentSeason === 'string'
-					? parseSeason(saveGame?.currentSeason)
-					: undefined,
-			year: typeof saveGame?.year === 'number' ? saveGame?.year : undefined,
-			toString() {
-				if (!this.day || !this.season || !this.year) {
-					return '';
-				}
-				return `${this.season} ${this.day}, Year ${this.year}`;
-			}
-		};
+		const currentDate = parseCurrentDate(saveGame);
 
 		return {
 			player: getPlayer(saveGame),
